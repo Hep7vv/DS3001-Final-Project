@@ -1,0 +1,399 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0002_ds225_20165_county_E'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2012-2016
+Geographic level: County (by State)
+Dataset:          2016 American Community Survey: 5-Year Data [2012-2016, Block Groups & Larger Areas]
+   NHGIS code:    2012_2016_ACS5a
+   NHGIS ID:      ds225
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Total population
+   Source code: B01001
+   NHGIS code:  AF2A
+ 
+2. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  AF2L
+ 
+3. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  AF2M
+ 
+4. Hispanic or Latino Origin by Race
+   Universe:    Total population
+   Source code: B03002
+   NHGIS code:  AF2U
+ 
+5. Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over
+   Source code: B15003
+   NHGIS code:  AF4O
+ 
+6. Ratio of Income to Poverty Level in the Past 12 Months
+   Universe:    Population for whom poverty status is determined
+   Source code: C17002
+   NHGIS code:  AF43
+ 
+7. Household Income in the Past 12 Months (in 2016 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19001
+   NHGIS code:  AF48
+ 
+8. Median Household Income in the Past 12 Months (in 2016 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  AF49
+ 
+9. Per Capita Income in the Past 12 Months (in 2016 Inflation-Adjusted Dollars)
+   Universe:    Total population
+   Source code: B19301
+   NHGIS code:  AF6A
+ 
+10. Employment Status for the Population 16 Years and Over
+    Universe:    Population 16 years and over
+    Source code: B23025
+    NHGIS code:  AF67
+ 
+11. Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AF7P
+ 
+12. Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AF89
+ 
+13. Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AF9L
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2017-2019, 115th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Geographic Identifier
+        NAME:        Area Name
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  AF2A
+        AF2AE001:    Total
+        AF2AE002:    Male
+        AF2AE003:    Male: Under 5 years
+        AF2AE004:    Male: 5 to 9 years
+        AF2AE005:    Male: 10 to 14 years
+        AF2AE006:    Male: 15 to 17 years
+        AF2AE007:    Male: 18 and 19 years
+        AF2AE008:    Male: 20 years
+        AF2AE009:    Male: 21 years
+        AF2AE010:    Male: 22 to 24 years
+        AF2AE011:    Male: 25 to 29 years
+        AF2AE012:    Male: 30 to 34 years
+        AF2AE013:    Male: 35 to 39 years
+        AF2AE014:    Male: 40 to 44 years
+        AF2AE015:    Male: 45 to 49 years
+        AF2AE016:    Male: 50 to 54 years
+        AF2AE017:    Male: 55 to 59 years
+        AF2AE018:    Male: 60 and 61 years
+        AF2AE019:    Male: 62 to 64 years
+        AF2AE020:    Male: 65 and 66 years
+        AF2AE021:    Male: 67 to 69 years
+        AF2AE022:    Male: 70 to 74 years
+        AF2AE023:    Male: 75 to 79 years
+        AF2AE024:    Male: 80 to 84 years
+        AF2AE025:    Male: 85 years and over
+        AF2AE026:    Female
+        AF2AE027:    Female: Under 5 years
+        AF2AE028:    Female: 5 to 9 years
+        AF2AE029:    Female: 10 to 14 years
+        AF2AE030:    Female: 15 to 17 years
+        AF2AE031:    Female: 18 and 19 years
+        AF2AE032:    Female: 20 years
+        AF2AE033:    Female: 21 years
+        AF2AE034:    Female: 22 to 24 years
+        AF2AE035:    Female: 25 to 29 years
+        AF2AE036:    Female: 30 to 34 years
+        AF2AE037:    Female: 35 to 39 years
+        AF2AE038:    Female: 40 to 44 years
+        AF2AE039:    Female: 45 to 49 years
+        AF2AE040:    Female: 50 to 54 years
+        AF2AE041:    Female: 55 to 59 years
+        AF2AE042:    Female: 60 and 61 years
+        AF2AE043:    Female: 62 to 64 years
+        AF2AE044:    Female: 65 and 66 years
+        AF2AE045:    Female: 67 to 69 years
+        AF2AE046:    Female: 70 to 74 years
+        AF2AE047:    Female: 75 to 79 years
+        AF2AE048:    Female: 80 to 84 years
+        AF2AE049:    Female: 85 years and over
+ 
+    Table 2:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  AF2L
+        AF2LE001:    Total
+ 
+    Table 3:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AF2M
+        AF2ME001:    Total
+        AF2ME002:    White alone
+        AF2ME003:    Black or African American alone
+        AF2ME004:    American Indian and Alaska Native alone
+        AF2ME005:    Asian alone
+        AF2ME006:    Native Hawaiian and Other Pacific Islander alone
+        AF2ME007:    Some other race alone
+        AF2ME008:    Two or more races
+        AF2ME009:    Two or more races: Two races including Some other race
+        AF2ME010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 4:     Hispanic or Latino Origin by Race
+    Universe:    Total population
+    Source code: B03002
+    NHGIS code:  AF2U
+        AF2UE001:    Total
+        AF2UE002:    Not Hispanic or Latino
+        AF2UE003:    Not Hispanic or Latino: White alone
+        AF2UE004:    Not Hispanic or Latino: Black or African American alone
+        AF2UE005:    Not Hispanic or Latino: American Indian and Alaska Native alone
+        AF2UE006:    Not Hispanic or Latino: Asian alone
+        AF2UE007:    Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AF2UE008:    Not Hispanic or Latino: Some other race alone
+        AF2UE009:    Not Hispanic or Latino: Two or more races
+        AF2UE010:    Not Hispanic or Latino: Two or more races: Two races including Some other race
+        AF2UE011:    Not Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+        AF2UE012:    Hispanic or Latino
+        AF2UE013:    Hispanic or Latino: White alone
+        AF2UE014:    Hispanic or Latino: Black or African American alone
+        AF2UE015:    Hispanic or Latino: American Indian and Alaska Native alone
+        AF2UE016:    Hispanic or Latino: Asian alone
+        AF2UE017:    Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AF2UE018:    Hispanic or Latino: Some other race alone
+        AF2UE019:    Hispanic or Latino: Two or more races
+        AF2UE020:    Hispanic or Latino: Two or more races: Two races including Some other race
+        AF2UE021:    Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 5:     Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15003
+    NHGIS code:  AF4O
+        AF4OE001:    Total
+        AF4OE002:    No schooling completed
+        AF4OE003:    Nursery school
+        AF4OE004:    Kindergarten
+        AF4OE005:    1st grade
+        AF4OE006:    2nd grade
+        AF4OE007:    3rd grade
+        AF4OE008:    4th grade
+        AF4OE009:    5th grade
+        AF4OE010:    6th grade
+        AF4OE011:    7th grade
+        AF4OE012:    8th grade
+        AF4OE013:    9th grade
+        AF4OE014:    10th grade
+        AF4OE015:    11th grade
+        AF4OE016:    12th grade, no diploma
+        AF4OE017:    Regular high school diploma
+        AF4OE018:    GED or alternative credential
+        AF4OE019:    Some college, less than 1 year
+        AF4OE020:    Some college, 1 or more years, no degree
+        AF4OE021:    Associate's degree
+        AF4OE022:    Bachelor's degree
+        AF4OE023:    Master's degree
+        AF4OE024:    Professional school degree
+        AF4OE025:    Doctorate degree
+ 
+    Table 6:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  AF43
+        AF43E001:    Total
+        AF43E002:    Under .50
+        AF43E003:    .50 to .99
+        AF43E004:    1.00 to 1.24
+        AF43E005:    1.25 to 1.49
+        AF43E006:    1.50 to 1.84
+        AF43E007:    1.85 to 1.99
+        AF43E008:    2.00 and over
+ 
+    Table 7:     Household Income in the Past 12 Months (in 2016 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19001
+    NHGIS code:  AF48
+        AF48E001:    Total
+        AF48E002:    Less than $10,000
+        AF48E003:    $10,000 to $14,999
+        AF48E004:    $15,000 to $19,999
+        AF48E005:    $20,000 to $24,999
+        AF48E006:    $25,000 to $29,999
+        AF48E007:    $30,000 to $34,999
+        AF48E008:    $35,000 to $39,999
+        AF48E009:    $40,000 to $44,999
+        AF48E010:    $45,000 to $49,999
+        AF48E011:    $50,000 to $59,999
+        AF48E012:    $60,000 to $74,999
+        AF48E013:    $75,000 to $99,999
+        AF48E014:    $100,000 to $124,999
+        AF48E015:    $125,000 to $149,999
+        AF48E016:    $150,000 to $199,999
+        AF48E017:    $200,000 or more
+ 
+    Table 8:     Median Household Income in the Past 12 Months (in 2016 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AF49
+        AF49E001:    Median household income in the past 12 months (in 2016 inflation-adjusted dollars)
+ 
+    Table 9:     Per Capita Income in the Past 12 Months (in 2016 Inflation-Adjusted Dollars)
+    Universe:    Total population
+    Source code: B19301
+    NHGIS code:  AF6A
+        AF6AE001:    Per capita income in the past 12 months (in 2016 inflation-adjusted dollars)
+ 
+    Table 10:    Employment Status for the Population 16 Years and Over
+    Universe:    Population 16 years and over
+    Source code: B23025
+    NHGIS code:  AF67
+        AF67E001:    Total
+        AF67E002:    In labor force
+        AF67E003:    In labor force: Civilian labor force
+        AF67E004:    In labor force: Civilian labor force: Employed
+        AF67E005:    In labor force: Civilian labor force: Unemployed
+        AF67E006:    In labor force: Armed Forces
+        AF67E007:    Not in labor force
+ 
+    Table 11:    Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AF7P
+        AF7PE001:    Total
+        AF7PE002:    Owner occupied
+        AF7PE003:    Renter occupied
+ 
+    Table 12:    Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AF89
+        AF89E001:    Median gross rent
+ 
+    Table 13:    Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AF9L
+        AF9LE001:    Median value (dollars)
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

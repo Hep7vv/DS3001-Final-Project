@@ -1,0 +1,26 @@
+{
+    "id": "7270FECC",
+    "path": "~/Downloads/project_voting-034cc804062288749c37ec2f907bb6cfe945cc5f/data/county_data/utf8/0002_ds176_20105_county_E.csv",
+    "project_path": "utf8/0002_ds176_20105_county_E.csv",
+    "type": "text",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1715003747068.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "7,1180",
+        "scrollLine": "8"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1715003732,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1715003732,
+    "read_only": false,
+    "read_only_alternatives": []
+}

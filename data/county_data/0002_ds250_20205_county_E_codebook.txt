@@ -1,0 +1,294 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0002_ds250_20205_county_E'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2016-2020
+Geographic level: County (by State)
+Dataset:          2020 American Community Survey: 5-Year Data [2016-2020, Tracts & Larger Areas]
+   NHGIS code:    2016_2020_ACS5b
+   NHGIS ID:      ds250
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+ 
+Tables:
+ 
+1. Nativity and Citizenship Status in the United States
+   Universe:    Total population in the United States
+   Source code: B05001
+   NHGIS code:  AM0K
+ 
+2. Poverty Status in the Past 12 Months by Sex by Age
+   Universe:    Population for whom poverty status is determined
+   Source code: B17001
+   NHGIS code:  AM63
+ 
+3. Poverty Status in the Past 12 Months by Age
+   Universe:    Population for whom poverty status is determined
+   Source code: B17020
+   NHGIS code:  AM70
+ 
+4. Sex by Age by Disability Status
+   Universe:    Civilian noninstitutionalized population
+   Source code: B18101
+   NHGIS code:  AM8F
+ 
+5. Gini Index of Income Inequality
+   Universe:    Households
+   Source code: B19083
+   NHGIS code:  AM9S
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2019-2021, 116th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Census Geographic Identifier
+        NAME:        Area Name
+        BTTRA:       Tribal Census Tract Code
+ 
+Data Type (E):
+    Estimates
+ 
+    Table 1:     Nativity and Citizenship Status in the United States
+    Universe:    Total population in the United States
+    Source code: B05001
+    NHGIS code:  AM0K
+        AM0KE001:    Total
+        AM0KE002:    U.S. citizen, born in the United States
+        AM0KE003:    U.S. citizen, born in Puerto Rico or U.S. Island Areas
+        AM0KE004:    U.S. citizen, born abroad of American parent(s)
+        AM0KE005:    U.S. citizen by naturalization
+        AM0KE006:    Not a U.S. citizen
+ 
+    Table 2:     Poverty Status in the Past 12 Months by Sex by Age
+    Universe:    Population for whom poverty status is determined
+    Source code: B17001
+    NHGIS code:  AM63
+        AM63E001:    Total
+        AM63E002:    Income in the past 12 months below poverty level
+        AM63E003:    Income in the past 12 months below poverty level: Male
+        AM63E004:    Income in the past 12 months below poverty level: Male: Under 5 years
+        AM63E005:    Income in the past 12 months below poverty level: Male: 5 years
+        AM63E006:    Income in the past 12 months below poverty level: Male: 6 to 11 years
+        AM63E007:    Income in the past 12 months below poverty level: Male: 12 to 14 years
+        AM63E008:    Income in the past 12 months below poverty level: Male: 15 years
+        AM63E009:    Income in the past 12 months below poverty level: Male: 16 and 17 years
+        AM63E010:    Income in the past 12 months below poverty level: Male: 18 to 24 years
+        AM63E011:    Income in the past 12 months below poverty level: Male: 25 to 34 years
+        AM63E012:    Income in the past 12 months below poverty level: Male: 35 to 44 years
+        AM63E013:    Income in the past 12 months below poverty level: Male: 45 to 54 years
+        AM63E014:    Income in the past 12 months below poverty level: Male: 55 to 64 years
+        AM63E015:    Income in the past 12 months below poverty level: Male: 65 to 74 years
+        AM63E016:    Income in the past 12 months below poverty level: Male: 75 years and over
+        AM63E017:    Income in the past 12 months below poverty level: Female
+        AM63E018:    Income in the past 12 months below poverty level: Female: Under 5 years
+        AM63E019:    Income in the past 12 months below poverty level: Female: 5 years
+        AM63E020:    Income in the past 12 months below poverty level: Female: 6 to 11 years
+        AM63E021:    Income in the past 12 months below poverty level: Female: 12 to 14 years
+        AM63E022:    Income in the past 12 months below poverty level: Female: 15 years
+        AM63E023:    Income in the past 12 months below poverty level: Female: 16 and 17 years
+        AM63E024:    Income in the past 12 months below poverty level: Female: 18 to 24 years
+        AM63E025:    Income in the past 12 months below poverty level: Female: 25 to 34 years
+        AM63E026:    Income in the past 12 months below poverty level: Female: 35 to 44 years
+        AM63E027:    Income in the past 12 months below poverty level: Female: 45 to 54 years
+        AM63E028:    Income in the past 12 months below poverty level: Female: 55 to 64 years
+        AM63E029:    Income in the past 12 months below poverty level: Female: 65 to 74 years
+        AM63E030:    Income in the past 12 months below poverty level: Female: 75 years and over
+        AM63E031:    Income in the past 12 months at or above poverty level
+        AM63E032:    Income in the past 12 months at or above poverty level: Male
+        AM63E033:    Income in the past 12 months at or above poverty level: Male: Under 5 years
+        AM63E034:    Income in the past 12 months at or above poverty level: Male: 5 years
+        AM63E035:    Income in the past 12 months at or above poverty level: Male: 6 to 11 years
+        AM63E036:    Income in the past 12 months at or above poverty level: Male: 12 to 14 years
+        AM63E037:    Income in the past 12 months at or above poverty level: Male: 15 years
+        AM63E038:    Income in the past 12 months at or above poverty level: Male: 16 and 17 years
+        AM63E039:    Income in the past 12 months at or above poverty level: Male: 18 to 24 years
+        AM63E040:    Income in the past 12 months at or above poverty level: Male: 25 to 34 years
+        AM63E041:    Income in the past 12 months at or above poverty level: Male: 35 to 44 years
+        AM63E042:    Income in the past 12 months at or above poverty level: Male: 45 to 54 years
+        AM63E043:    Income in the past 12 months at or above poverty level: Male: 55 to 64 years
+        AM63E044:    Income in the past 12 months at or above poverty level: Male: 65 to 74 years
+        AM63E045:    Income in the past 12 months at or above poverty level: Male: 75 years and over
+        AM63E046:    Income in the past 12 months at or above poverty level: Female
+        AM63E047:    Income in the past 12 months at or above poverty level: Female: Under 5 years
+        AM63E048:    Income in the past 12 months at or above poverty level: Female: 5 years
+        AM63E049:    Income in the past 12 months at or above poverty level: Female: 6 to 11 years
+        AM63E050:    Income in the past 12 months at or above poverty level: Female: 12 to 14 years
+        AM63E051:    Income in the past 12 months at or above poverty level: Female: 15 years
+        AM63E052:    Income in the past 12 months at or above poverty level: Female: 16 and 17 years
+        AM63E053:    Income in the past 12 months at or above poverty level: Female: 18 to 24 years
+        AM63E054:    Income in the past 12 months at or above poverty level: Female: 25 to 34 years
+        AM63E055:    Income in the past 12 months at or above poverty level: Female: 35 to 44 years
+        AM63E056:    Income in the past 12 months at or above poverty level: Female: 45 to 54 years
+        AM63E057:    Income in the past 12 months at or above poverty level: Female: 55 to 64 years
+        AM63E058:    Income in the past 12 months at or above poverty level: Female: 65 to 74 years
+        AM63E059:    Income in the past 12 months at or above poverty level: Female: 75 years and over
+ 
+    Table 3:     Poverty Status in the Past 12 Months by Age
+    Universe:    Population for whom poverty status is determined
+    Source code: B17020
+    NHGIS code:  AM70
+        AM70E001:    Total
+        AM70E002:    Income in the past 12 months below poverty level
+        AM70E003:    Income in the past 12 months below poverty level: Under 6 years
+        AM70E004:    Income in the past 12 months below poverty level: 6 to 11 years
+        AM70E005:    Income in the past 12 months below poverty level: 12 to 17 years
+        AM70E006:    Income in the past 12 months below poverty level: 18 to 59 years
+        AM70E007:    Income in the past 12 months below poverty level: 60 to 74 years
+        AM70E008:    Income in the past 12 months below poverty level: 75 to 84 years
+        AM70E009:    Income in the past 12 months below poverty level: 85 years and over
+        AM70E010:    Income in the past 12 months at or above poverty level
+        AM70E011:    Income in the past 12 months at or above poverty level: Under 6 years
+        AM70E012:    Income in the past 12 months at or above poverty level: 6 to 11 years
+        AM70E013:    Income in the past 12 months at or above poverty level: 12 to 17 years
+        AM70E014:    Income in the past 12 months at or above poverty level: 18 to 59 years
+        AM70E015:    Income in the past 12 months at or above poverty level: 60 to 74 years
+        AM70E016:    Income in the past 12 months at or above poverty level: 75 to 84 years
+        AM70E017:    Income in the past 12 months at or above poverty level: 85 years and over
+ 
+    Table 4:     Sex by Age by Disability Status
+    Universe:    Civilian noninstitutionalized population
+    Source code: B18101
+    NHGIS code:  AM8F
+        AM8FE001:    Total
+        AM8FE002:    Male
+        AM8FE003:    Male: Under 5 years
+        AM8FE004:    Male: Under 5 years: With a disability
+        AM8FE005:    Male: Under 5 years: No disability
+        AM8FE006:    Male: 5 to 17 years
+        AM8FE007:    Male: 5 to 17 years: With a disability
+        AM8FE008:    Male: 5 to 17 years: No disability
+        AM8FE009:    Male: 18 to 34 years
+        AM8FE010:    Male: 18 to 34 years: With a disability
+        AM8FE011:    Male: 18 to 34 years: No disability
+        AM8FE012:    Male: 35 to 64 years
+        AM8FE013:    Male: 35 to 64 years: With a disability
+        AM8FE014:    Male: 35 to 64 years: No disability
+        AM8FE015:    Male: 65 to 74 years
+        AM8FE016:    Male: 65 to 74 years: With a disability
+        AM8FE017:    Male: 65 to 74 years: No disability
+        AM8FE018:    Male: 75 years and over
+        AM8FE019:    Male: 75 years and over: With a disability
+        AM8FE020:    Male: 75 years and over: No disability
+        AM8FE021:    Female
+        AM8FE022:    Female: Under 5 years
+        AM8FE023:    Female: Under 5 years: With a disability
+        AM8FE024:    Female: Under 5 years: No disability
+        AM8FE025:    Female: 5 to 17 years
+        AM8FE026:    Female: 5 to 17 years: With a disability
+        AM8FE027:    Female: 5 to 17 years: No disability
+        AM8FE028:    Female: 18 to 34 years
+        AM8FE029:    Female: 18 to 34 years: With a disability
+        AM8FE030:    Female: 18 to 34 years: No disability
+        AM8FE031:    Female: 35 to 64 years
+        AM8FE032:    Female: 35 to 64 years: With a disability
+        AM8FE033:    Female: 35 to 64 years: No disability
+        AM8FE034:    Female: 65 to 74 years
+        AM8FE035:    Female: 65 to 74 years: With a disability
+        AM8FE036:    Female: 65 to 74 years: No disability
+        AM8FE037:    Female: 75 years and over
+        AM8FE038:    Female: 75 years and over: With a disability
+        AM8FE039:    Female: 75 years and over: No disability
+ 
+    Table 5:     Gini Index of Income Inequality
+    Universe:    Households
+    Source code: B19083
+    NHGIS code:  AM9S
+        AM9SE001:    Gini Index
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

@@ -1,0 +1,436 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0002_ds239_20185_county_M'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2014-2018
+Geographic level: County (by State)
+Dataset:          2018 American Community Survey: 5-Year Data [2014-2018, Block Groups & Larger Areas]
+   NHGIS code:    2014_2018_ACS5a
+   NHGIS ID:      ds239
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Total population
+   Source code: B01001
+   NHGIS code:  AJWB
+ 
+2. Median Age by Sex
+   Universe:    Total population
+   Source code: B01002
+   NHGIS code:  AJWC
+ 
+3. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  AJWM
+ 
+4. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  AJWN
+ 
+5. Hispanic or Latino Origin by Race
+   Universe:    Total population
+   Source code: B03002
+   NHGIS code:  AJWV
+ 
+6. Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over
+   Source code: B15003
+   NHGIS code:  AJYP
+ 
+7. Ratio of Income to Poverty Level in the Past 12 Months
+   Universe:    Population for whom poverty status is determined
+   Source code: C17002
+   NHGIS code:  AJY4
+ 
+8. Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19001
+   NHGIS code:  AJY9
+ 
+9. Median Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  AJZA
+ 
+10. Per Capita Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Total population
+    Source code: B19301
+    NHGIS code:  AJ0E
+ 
+11. Employment Status for the Population 16 Years and Over
+    Universe:    Population 16 years and over
+    Source code: B23025
+    NHGIS code:  AJ1C
+ 
+12. Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  AJ1S
+ 
+13. Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  AJ1T
+ 
+14. Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AJ1U
+ 
+15. Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AJ3E
+ 
+16. Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AJ3Q
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2019-2021, 116th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Census Geographic Identifier
+        NAME:        Area Name
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (M):
+    Margins of error
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  AJWB
+        AJWBM001:    Total
+        AJWBM002:    Male
+        AJWBM003:    Male: Under 5 years
+        AJWBM004:    Male: 5 to 9 years
+        AJWBM005:    Male: 10 to 14 years
+        AJWBM006:    Male: 15 to 17 years
+        AJWBM007:    Male: 18 and 19 years
+        AJWBM008:    Male: 20 years
+        AJWBM009:    Male: 21 years
+        AJWBM010:    Male: 22 to 24 years
+        AJWBM011:    Male: 25 to 29 years
+        AJWBM012:    Male: 30 to 34 years
+        AJWBM013:    Male: 35 to 39 years
+        AJWBM014:    Male: 40 to 44 years
+        AJWBM015:    Male: 45 to 49 years
+        AJWBM016:    Male: 50 to 54 years
+        AJWBM017:    Male: 55 to 59 years
+        AJWBM018:    Male: 60 and 61 years
+        AJWBM019:    Male: 62 to 64 years
+        AJWBM020:    Male: 65 and 66 years
+        AJWBM021:    Male: 67 to 69 years
+        AJWBM022:    Male: 70 to 74 years
+        AJWBM023:    Male: 75 to 79 years
+        AJWBM024:    Male: 80 to 84 years
+        AJWBM025:    Male: 85 years and over
+        AJWBM026:    Female
+        AJWBM027:    Female: Under 5 years
+        AJWBM028:    Female: 5 to 9 years
+        AJWBM029:    Female: 10 to 14 years
+        AJWBM030:    Female: 15 to 17 years
+        AJWBM031:    Female: 18 and 19 years
+        AJWBM032:    Female: 20 years
+        AJWBM033:    Female: 21 years
+        AJWBM034:    Female: 22 to 24 years
+        AJWBM035:    Female: 25 to 29 years
+        AJWBM036:    Female: 30 to 34 years
+        AJWBM037:    Female: 35 to 39 years
+        AJWBM038:    Female: 40 to 44 years
+        AJWBM039:    Female: 45 to 49 years
+        AJWBM040:    Female: 50 to 54 years
+        AJWBM041:    Female: 55 to 59 years
+        AJWBM042:    Female: 60 and 61 years
+        AJWBM043:    Female: 62 to 64 years
+        AJWBM044:    Female: 65 and 66 years
+        AJWBM045:    Female: 67 to 69 years
+        AJWBM046:    Female: 70 to 74 years
+        AJWBM047:    Female: 75 to 79 years
+        AJWBM048:    Female: 80 to 84 years
+        AJWBM049:    Female: 85 years and over
+ 
+    Table 2:     Median Age by Sex
+    Universe:    Total population
+    Source code: B01002
+    NHGIS code:  AJWC
+        AJWCM001:    Median age: Total
+        AJWCM002:    Median age: Male
+        AJWCM003:    Median age: Female
+ 
+    Table 3:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  AJWM
+        AJWMM001:    Total
+ 
+    Table 4:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AJWN
+        AJWNM001:    Total
+        AJWNM002:    White alone
+        AJWNM003:    Black or African American alone
+        AJWNM004:    American Indian and Alaska Native alone
+        AJWNM005:    Asian alone
+        AJWNM006:    Native Hawaiian and Other Pacific Islander alone
+        AJWNM007:    Some other race alone
+        AJWNM008:    Two or more races
+        AJWNM009:    Two or more races: Two races including Some other race
+        AJWNM010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 5:     Hispanic or Latino Origin by Race
+    Universe:    Total population
+    Source code: B03002
+    NHGIS code:  AJWV
+        AJWVM001:    Total
+        AJWVM002:    Not Hispanic or Latino
+        AJWVM003:    Not Hispanic or Latino: White alone
+        AJWVM004:    Not Hispanic or Latino: Black or African American alone
+        AJWVM005:    Not Hispanic or Latino: American Indian and Alaska Native alone
+        AJWVM006:    Not Hispanic or Latino: Asian alone
+        AJWVM007:    Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AJWVM008:    Not Hispanic or Latino: Some other race alone
+        AJWVM009:    Not Hispanic or Latino: Two or more races
+        AJWVM010:    Not Hispanic or Latino: Two or more races: Two races including Some other race
+        AJWVM011:    Not Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+        AJWVM012:    Hispanic or Latino
+        AJWVM013:    Hispanic or Latino: White alone
+        AJWVM014:    Hispanic or Latino: Black or African American alone
+        AJWVM015:    Hispanic or Latino: American Indian and Alaska Native alone
+        AJWVM016:    Hispanic or Latino: Asian alone
+        AJWVM017:    Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AJWVM018:    Hispanic or Latino: Some other race alone
+        AJWVM019:    Hispanic or Latino: Two or more races
+        AJWVM020:    Hispanic or Latino: Two or more races: Two races including Some other race
+        AJWVM021:    Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 6:     Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15003
+    NHGIS code:  AJYP
+        AJYPM001:    Total
+        AJYPM002:    No schooling completed
+        AJYPM003:    Nursery school
+        AJYPM004:    Kindergarten
+        AJYPM005:    1st grade
+        AJYPM006:    2nd grade
+        AJYPM007:    3rd grade
+        AJYPM008:    4th grade
+        AJYPM009:    5th grade
+        AJYPM010:    6th grade
+        AJYPM011:    7th grade
+        AJYPM012:    8th grade
+        AJYPM013:    9th grade
+        AJYPM014:    10th grade
+        AJYPM015:    11th grade
+        AJYPM016:    12th grade, no diploma
+        AJYPM017:    Regular high school diploma
+        AJYPM018:    GED or alternative credential
+        AJYPM019:    Some college, less than 1 year
+        AJYPM020:    Some college, 1 or more years, no degree
+        AJYPM021:    Associate's degree
+        AJYPM022:    Bachelor's degree
+        AJYPM023:    Master's degree
+        AJYPM024:    Professional school degree
+        AJYPM025:    Doctorate degree
+ 
+    Table 7:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  AJY4
+        AJY4M001:    Total
+        AJY4M002:    Under .50
+        AJY4M003:    .50 to .99
+        AJY4M004:    1.00 to 1.24
+        AJY4M005:    1.25 to 1.49
+        AJY4M006:    1.50 to 1.84
+        AJY4M007:    1.85 to 1.99
+        AJY4M008:    2.00 and over
+ 
+    Table 8:     Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19001
+    NHGIS code:  AJY9
+        AJY9M001:    Total
+        AJY9M002:    Less than $10,000
+        AJY9M003:    $10,000 to $14,999
+        AJY9M004:    $15,000 to $19,999
+        AJY9M005:    $20,000 to $24,999
+        AJY9M006:    $25,000 to $29,999
+        AJY9M007:    $30,000 to $34,999
+        AJY9M008:    $35,000 to $39,999
+        AJY9M009:    $40,000 to $44,999
+        AJY9M010:    $45,000 to $49,999
+        AJY9M011:    $50,000 to $59,999
+        AJY9M012:    $60,000 to $74,999
+        AJY9M013:    $75,000 to $99,999
+        AJY9M014:    $100,000 to $124,999
+        AJY9M015:    $125,000 to $149,999
+        AJY9M016:    $150,000 to $199,999
+        AJY9M017:    $200,000 or more
+ 
+    Table 9:     Median Household Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AJZA
+        AJZAM001:    Median household income in the past 12 months (in 2018 inflation-adjusted dollars)
+ 
+    Table 10:    Per Capita Income in the Past 12 Months (in 2018 Inflation-Adjusted Dollars)
+    Universe:    Total population
+    Source code: B19301
+    NHGIS code:  AJ0E
+        AJ0EM001:    Per capita income in the past 12 months (in 2018 inflation-adjusted dollars)
+ 
+    Table 11:    Employment Status for the Population 16 Years and Over
+    Universe:    Population 16 years and over
+    Source code: B23025
+    NHGIS code:  AJ1C
+        AJ1CM001:    Total
+        AJ1CM002:    In labor force
+        AJ1CM003:    In labor force: Civilian labor force
+        AJ1CM004:    In labor force: Civilian labor force: Employed
+        AJ1CM005:    In labor force: Civilian labor force: Unemployed
+        AJ1CM006:    In labor force: Armed Forces
+        AJ1CM007:    Not in labor force
+ 
+    Table 12:    Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  AJ1S
+        AJ1SM001:    Total
+ 
+    Table 13:    Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  AJ1T
+        AJ1TM001:    Total
+        AJ1TM002:    Occupied
+        AJ1TM003:    Vacant
+ 
+    Table 14:    Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AJ1U
+        AJ1UM001:    Total
+        AJ1UM002:    Owner occupied
+        AJ1UM003:    Renter occupied
+ 
+    Table 15:    Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AJ3E
+        AJ3EM001:    Median gross rent
+ 
+    Table 16:    Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AJ3Q
+        AJ3QM001:    Median value (dollars)
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

@@ -1,0 +1,545 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0002_ds176_20105_county_M'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2006-2010
+Geographic level: County (by State)
+Dataset:          2010 American Community Survey: 5-Year Data [2006-2010, Block Groups & Larger Areas]
+   NHGIS code:    2006_2010_ACS5a
+   NHGIS ID:      ds176
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Total population
+   Source code: B01001
+   NHGIS code:  JLZ
+ 
+2. Median Age by Sex
+   Universe:    Total population
+   Source code: B01002
+   NHGIS code:  JL0
+ 
+3. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  JMA
+ 
+4. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  JMB
+ 
+5. Hispanic or Latino Origin by Race
+   Universe:    Total population
+   Source code: B03002
+   NHGIS code:  JMJ
+ 
+6. Sex by Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over
+   Source code: B15002
+   NHGIS code:  JN9
+ 
+7. Ratio of Income to Poverty Level in the Past 12 Months
+   Universe:    Population for whom poverty status is determined
+   Source code: C17002
+   NHGIS code:  JOC
+ 
+8. Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19001
+   NHGIS code:  JOH
+ 
+9. Median Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  JOI
+ 
+10. Per Capita Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Total population
+    Source code: B19301
+    NHGIS code:  JQB
+ 
+11. Aggregate Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Population 15 years and over
+    Source code: B19313
+    NHGIS code:  JQL
+ 
+12. Sex by Industry for the Civilian Employed Population 16 Years and Over
+    Universe:    Civilian employed population 16 years and over
+    Source code: C24030
+    NHGIS code:  JRG
+ 
+13. Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  JRI
+ 
+14. Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  JRJ
+ 
+15. Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  JRK
+ 
+16. Units in Structure
+    Universe:    Housing units
+    Source code: B25024
+    NHGIS code:  JSA
+ 
+17. Year Structure Built
+    Universe:    Housing units
+    Source code: B25034
+    NHGIS code:  JSD
+ 
+18. Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  JS5
+ 
+19. Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  JTI
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Geographic Identifier
+        NAME:        Area Name
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (M):
+    Margins of error
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  JLZ
+        JLZM001:     Total
+        JLZM002:     Male
+        JLZM003:     Male: Under 5 years
+        JLZM004:     Male: 5 to 9 years
+        JLZM005:     Male: 10 to 14 years
+        JLZM006:     Male: 15 to 17 years
+        JLZM007:     Male: 18 and 19 years
+        JLZM008:     Male: 20 years
+        JLZM009:     Male: 21 years
+        JLZM010:     Male: 22 to 24 years
+        JLZM011:     Male: 25 to 29 years
+        JLZM012:     Male: 30 to 34 years
+        JLZM013:     Male: 35 to 39 years
+        JLZM014:     Male: 40 to 44 years
+        JLZM015:     Male: 45 to 49 years
+        JLZM016:     Male: 50 to 54 years
+        JLZM017:     Male: 55 to 59 years
+        JLZM018:     Male: 60 and 61 years
+        JLZM019:     Male: 62 to 64 years
+        JLZM020:     Male: 65 and 66 years
+        JLZM021:     Male: 67 to 69 years
+        JLZM022:     Male: 70 to 74 years
+        JLZM023:     Male: 75 to 79 years
+        JLZM024:     Male: 80 to 84 years
+        JLZM025:     Male: 85 years and over
+        JLZM026:     Female
+        JLZM027:     Female: Under 5 years
+        JLZM028:     Female: 5 to 9 years
+        JLZM029:     Female: 10 to 14 years
+        JLZM030:     Female: 15 to 17 years
+        JLZM031:     Female: 18 and 19 years
+        JLZM032:     Female: 20 years
+        JLZM033:     Female: 21 years
+        JLZM034:     Female: 22 to 24 years
+        JLZM035:     Female: 25 to 29 years
+        JLZM036:     Female: 30 to 34 years
+        JLZM037:     Female: 35 to 39 years
+        JLZM038:     Female: 40 to 44 years
+        JLZM039:     Female: 45 to 49 years
+        JLZM040:     Female: 50 to 54 years
+        JLZM041:     Female: 55 to 59 years
+        JLZM042:     Female: 60 and 61 years
+        JLZM043:     Female: 62 to 64 years
+        JLZM044:     Female: 65 and 66 years
+        JLZM045:     Female: 67 to 69 years
+        JLZM046:     Female: 70 to 74 years
+        JLZM047:     Female: 75 to 79 years
+        JLZM048:     Female: 80 to 84 years
+        JLZM049:     Female: 85 years and over
+ 
+    Table 2:     Median Age by Sex
+    Universe:    Total population
+    Source code: B01002
+    NHGIS code:  JL0
+        JL0M001:     Median age: Total
+        JL0M002:     Median age: Male
+        JL0M003:     Median age: Female
+ 
+    Table 3:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  JMA
+        JMAM001:     Total
+ 
+    Table 4:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  JMB
+        JMBM001:     Total
+        JMBM002:     White alone
+        JMBM003:     Black or African American alone
+        JMBM004:     American Indian and Alaska Native alone
+        JMBM005:     Asian alone
+        JMBM006:     Native Hawaiian and Other Pacific Islander alone
+        JMBM007:     Some other race alone
+        JMBM008:     Two or more races
+        JMBM009:     Two or more races: Two races including Some other race
+        JMBM010:     Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 5:     Hispanic or Latino Origin by Race
+    Universe:    Total population
+    Source code: B03002
+    NHGIS code:  JMJ
+        JMJM001:     Total
+        JMJM002:     Not Hispanic or Latino
+        JMJM003:     Not Hispanic or Latino: White alone
+        JMJM004:     Not Hispanic or Latino: Black or African American alone
+        JMJM005:     Not Hispanic or Latino: American Indian and Alaska Native alone
+        JMJM006:     Not Hispanic or Latino: Asian alone
+        JMJM007:     Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        JMJM008:     Not Hispanic or Latino: Some other race alone
+        JMJM009:     Not Hispanic or Latino: Two or more races
+        JMJM010:     Not Hispanic or Latino: Two or more races: Two races including Some other race
+        JMJM011:     Not Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+        JMJM012:     Hispanic or Latino
+        JMJM013:     Hispanic or Latino: White alone
+        JMJM014:     Hispanic or Latino: Black or African American alone
+        JMJM015:     Hispanic or Latino: American Indian and Alaska Native alone
+        JMJM016:     Hispanic or Latino: Asian alone
+        JMJM017:     Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        JMJM018:     Hispanic or Latino: Some other race alone
+        JMJM019:     Hispanic or Latino: Two or more races
+        JMJM020:     Hispanic or Latino: Two or more races: Two races including Some other race
+        JMJM021:     Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 6:     Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15002
+    NHGIS code:  JN9
+        JN9M001:     Total
+        JN9M002:     Male
+        JN9M003:     Male: No schooling completed
+        JN9M004:     Male: Nursery to 4th grade
+        JN9M005:     Male: 5th and 6th grade
+        JN9M006:     Male: 7th and 8th grade
+        JN9M007:     Male: 9th grade
+        JN9M008:     Male: 10th grade
+        JN9M009:     Male: 11th grade
+        JN9M010:     Male: 12th grade, no diploma
+        JN9M011:     Male: High school graduate, GED, or alternative
+        JN9M012:     Male: Some college, less than 1 year
+        JN9M013:     Male: Some college, 1 or more years, no degree
+        JN9M014:     Male: Associate's degree
+        JN9M015:     Male: Bachelor's degree
+        JN9M016:     Male: Master's degree
+        JN9M017:     Male: Professional school degree
+        JN9M018:     Male: Doctorate degree
+        JN9M019:     Female
+        JN9M020:     Female: No schooling completed
+        JN9M021:     Female: Nursery to 4th grade
+        JN9M022:     Female: 5th and 6th grade
+        JN9M023:     Female: 7th and 8th grade
+        JN9M024:     Female: 9th grade
+        JN9M025:     Female: 10th grade
+        JN9M026:     Female: 11th grade
+        JN9M027:     Female: 12th grade, no diploma
+        JN9M028:     Female: High school graduate, GED, or alternative
+        JN9M029:     Female: Some college, less than 1 year
+        JN9M030:     Female: Some college, 1 or more years, no degree
+        JN9M031:     Female: Associate's degree
+        JN9M032:     Female: Bachelor's degree
+        JN9M033:     Female: Master's degree
+        JN9M034:     Female: Professional school degree
+        JN9M035:     Female: Doctorate degree
+ 
+    Table 7:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  JOC
+        JOCM001:     Total
+        JOCM002:     Under .50
+        JOCM003:     .50 to .99
+        JOCM004:     1.00 to 1.24
+        JOCM005:     1.25 to 1.49
+        JOCM006:     1.50 to 1.84
+        JOCM007:     1.85 to 1.99
+        JOCM008:     2.00 and over
+ 
+    Table 8:     Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19001
+    NHGIS code:  JOH
+        JOHM001:     Total
+        JOHM002:     Less than $10,000
+        JOHM003:     $10,000 to $14,999
+        JOHM004:     $15,000 to $19,999
+        JOHM005:     $20,000 to $24,999
+        JOHM006:     $25,000 to $29,999
+        JOHM007:     $30,000 to $34,999
+        JOHM008:     $35,000 to $39,999
+        JOHM009:     $40,000 to $44,999
+        JOHM010:     $45,000 to $49,999
+        JOHM011:     $50,000 to $59,999
+        JOHM012:     $60,000 to $74,999
+        JOHM013:     $75,000 to $99,999
+        JOHM014:     $100,000 to $124,999
+        JOHM015:     $125,000 to $149,999
+        JOHM016:     $150,000 to $199,999
+        JOHM017:     $200,000 or more
+ 
+    Table 9:     Median Household Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  JOI
+        JOIM001:     Median household income in the past 12 months (in 2010 inflation-adjusted dollars)
+ 
+    Table 10:    Per Capita Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Total population
+    Source code: B19301
+    NHGIS code:  JQB
+        JQBM001:     Per capita income in the past 12 months (in 2010 inflation-adjusted dollars)
+ 
+    Table 11:    Aggregate Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Population 15 years and over
+    Source code: B19313
+    NHGIS code:  JQL
+        JQLM001:     Aggregate income in the past 12 months (in 2010 inflation-adjusted dollars)
+ 
+    Table 12:    Sex by Industry for the Civilian Employed Population 16 Years and Over
+    Universe:    Civilian employed population 16 years and over
+    Source code: C24030
+    NHGIS code:  JRG
+        JRGM001:     Total
+        JRGM002:     Male
+        JRGM003:     Male: Agriculture, forestry, fishing and hunting, and mining
+        JRGM004:     Male: Agriculture, forestry, fishing and hunting, and mining: Agriculture, forestry, fishing and hunting
+        JRGM005:     Male: Agriculture, forestry, fishing and hunting, and mining: Mining, quarrying, and oil and gas extraction
+        JRGM006:     Male: Construction
+        JRGM007:     Male: Manufacturing
+        JRGM008:     Male: Wholesale trade
+        JRGM009:     Male: Retail trade
+        JRGM010:     Male: Transportation and warehousing, and utilities
+        JRGM011:     Male: Transportation and warehousing, and utilities: Transportation and warehousing
+        JRGM012:     Male: Transportation and warehousing, and utilities: Utilities
+        JRGM013:     Male: Information
+        JRGM014:     Male: Finance and insurance, and real estate and rental and leasing
+        JRGM015:     Male: Finance and insurance, and real estate and rental and leasing: Finance and insurance
+        JRGM016:     Male: Finance and insurance, and real estate and rental and leasing: Real estate and rental and leasing
+        JRGM017:     Male: Professional, scientific, and management, and administrative and waste management services
+        JRGM018:     Male: Professional, scientific, and management, and administrative and waste management services: Professional, scientific, and technical services
+        JRGM019:     Male: Professional, scientific, and management, and administrative and waste management services: Management of companies and enterprises
+        JRGM020:     Male: Professional, scientific, and management, and administrative and waste management services: Administrative and support and waste management services
+        JRGM021:     Male: Educational services, and health care and social assistance
+        JRGM022:     Male: Educational services, and health care and social assistance: Educational services
+        JRGM023:     Male: Educational services, and health care and social assistance: Health care and social assistance
+        JRGM024:     Male: Arts, entertainment, and recreation, and accommodation and food services
+        JRGM025:     Male: Arts, entertainment, and recreation, and accommodation and food services: Arts, entertainment, and recreation
+        JRGM026:     Male: Arts, entertainment, and recreation, and accommodation and food services: Accommodation and food services
+        JRGM027:     Male: Other services, except public administration
+        JRGM028:     Male: Public administration
+        JRGM029:     Female
+        JRGM030:     Female: Agriculture, forestry, fishing and hunting, and mining
+        JRGM031:     Female: Agriculture, forestry, fishing and hunting, and mining: Agriculture, forestry, fishing and hunting
+        JRGM032:     Female: Agriculture, forestry, fishing and hunting, and mining: Mining, quarrying, and oil and gas extraction
+        JRGM033:     Female: Construction
+        JRGM034:     Female: Manufacturing
+        JRGM035:     Female: Wholesale trade
+        JRGM036:     Female: Retail trade
+        JRGM037:     Female: Transportation and warehousing, and utilities
+        JRGM038:     Female: Transportation and warehousing, and utilities: Transportation and warehousing
+        JRGM039:     Female: Transportation and warehousing, and utilities: Utilities
+        JRGM040:     Female: Information
+        JRGM041:     Female: Finance and insurance, and real estate and rental and leasing
+        JRGM042:     Female: Finance and insurance, and real estate and rental and leasing: Finance and insurance
+        JRGM043:     Female: Finance and insurance, and real estate and rental and leasing: Real estate and rental and leasing
+        JRGM044:     Female: Professional, scientific, and management, and administrative and waste management services
+        JRGM045:     Female: Professional, scientific, and management, and administrative and waste management services: Professional, scientific, and technical services
+        JRGM046:     Female: Professional, scientific, and management, and administrative and waste management services: Management of companies and enterprises
+        JRGM047:     Female: Professional, scientific, and management, and administrative and waste management services: Administrative and support and waste management services
+        JRGM048:     Female: Educational services, and health care and social assistance
+        JRGM049:     Female: Educational services, and health care and social assistance: Educational services
+        JRGM050:     Female: Educational services, and health care and social assistance: Health care and social assistance
+        JRGM051:     Female: Arts, entertainment, and recreation, and accommodation and food services
+        JRGM052:     Female: Arts, entertainment, and recreation, and accommodation and food services: Arts, entertainment, and recreation
+        JRGM053:     Female: Arts, entertainment, and recreation, and accommodation and food services: Accommodation and food services
+        JRGM054:     Female: Other services, except public administration
+        JRGM055:     Female: Public administration
+ 
+    Table 13:    Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  JRI
+        JRIM001:     Total
+ 
+    Table 14:    Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  JRJ
+        JRJM001:     Total
+        JRJM002:     Occupied
+        JRJM003:     Vacant
+ 
+    Table 15:    Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  JRK
+        JRKM001:     Total
+        JRKM002:     Owner occupied
+        JRKM003:     Renter occupied
+ 
+    Table 16:    Units in Structure
+    Universe:    Housing units
+    Source code: B25024
+    NHGIS code:  JSA
+        JSAM001:     Total
+        JSAM002:     1, detached
+        JSAM003:     1, attached
+        JSAM004:     2
+        JSAM005:     3 or 4
+        JSAM006:     5 to 9
+        JSAM007:     10 to 19
+        JSAM008:     20 to 49
+        JSAM009:     50 or more
+        JSAM010:     Mobile home
+        JSAM011:     Boat, RV, van, etc.
+ 
+    Table 17:    Year Structure Built
+    Universe:    Housing units
+    Source code: B25034
+    NHGIS code:  JSD
+        JSDM001:     Total
+        JSDM002:     Built 2005 or later
+        JSDM003:     Built 2000 to 2004
+        JSDM004:     Built 1990 to 1999
+        JSDM005:     Built 1980 to 1989
+        JSDM006:     Built 1970 to 1979
+        JSDM007:     Built 1960 to 1969
+        JSDM008:     Built 1950 to 1959
+        JSDM009:     Built 1940 to 1949
+        JSDM010:     Built 1939 or earlier
+ 
+    Table 18:    Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  JS5
+        JS5M001:     Median gross rent
+ 
+    Table 19:    Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  JTI
+        JTIM001:     Median value (dollars)
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

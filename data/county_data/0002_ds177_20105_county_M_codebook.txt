@@ -1,0 +1,384 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0002_ds177_20105_county_M'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2006-2010
+Geographic level: County (by State)
+Dataset:          2010 American Community Survey: 5-Year Data [2006-2010, Tracts & Larger Areas]
+   NHGIS code:    2006_2010_ACS5b
+   NHGIS ID:      ds177
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (M) Margins of error
+ 
+Tables:
+ 
+1. Poverty Status in the Past 12 Months by Sex by Age
+   Universe:    Population for whom poverty status is determined
+   Source code: B17001
+   NHGIS code:  J2V
+ 
+2. Gini Index of Income Inequality
+   Universe:    Households
+   Source code: B19083
+   NHGIS code:  J4T
+ 
+3. Sex by Age by Employment Status for the Population 16 Years and Over
+   Universe:    Population 16 years and over
+   Source code: B23001
+   NHGIS code:  J6Q
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Geographic Identifier
+        NAME:        Area Name
+        BTTRA:       Tribal Census Tract Code
+ 
+Data Type (M):
+    Margins of error
+ 
+    Table 1:     Poverty Status in the Past 12 Months by Sex by Age
+    Universe:    Population for whom poverty status is determined
+    Source code: B17001
+    NHGIS code:  J2V
+        J2VM001:     Total
+        J2VM002:     Income in the past 12 months below poverty level
+        J2VM003:     Income in the past 12 months below poverty level: Male
+        J2VM004:     Income in the past 12 months below poverty level: Male: Under 5 years
+        J2VM005:     Income in the past 12 months below poverty level: Male: 5 years
+        J2VM006:     Income in the past 12 months below poverty level: Male: 6 to 11 years
+        J2VM007:     Income in the past 12 months below poverty level: Male: 12 to 14 years
+        J2VM008:     Income in the past 12 months below poverty level: Male: 15 years
+        J2VM009:     Income in the past 12 months below poverty level: Male: 16 and 17 years
+        J2VM010:     Income in the past 12 months below poverty level: Male: 18 to 24 years
+        J2VM011:     Income in the past 12 months below poverty level: Male: 25 to 34 years
+        J2VM012:     Income in the past 12 months below poverty level: Male: 35 to 44 years
+        J2VM013:     Income in the past 12 months below poverty level: Male: 45 to 54 years
+        J2VM014:     Income in the past 12 months below poverty level: Male: 55 to 64 years
+        J2VM015:     Income in the past 12 months below poverty level: Male: 65 to 74 years
+        J2VM016:     Income in the past 12 months below poverty level: Male: 75 years and over
+        J2VM017:     Income in the past 12 months below poverty level: Female
+        J2VM018:     Income in the past 12 months below poverty level: Female: Under 5 years
+        J2VM019:     Income in the past 12 months below poverty level: Female: 5 years
+        J2VM020:     Income in the past 12 months below poverty level: Female: 6 to 11 years
+        J2VM021:     Income in the past 12 months below poverty level: Female: 12 to 14 years
+        J2VM022:     Income in the past 12 months below poverty level: Female: 15 years
+        J2VM023:     Income in the past 12 months below poverty level: Female: 16 and 17 years
+        J2VM024:     Income in the past 12 months below poverty level: Female: 18 to 24 years
+        J2VM025:     Income in the past 12 months below poverty level: Female: 25 to 34 years
+        J2VM026:     Income in the past 12 months below poverty level: Female: 35 to 44 years
+        J2VM027:     Income in the past 12 months below poverty level: Female: 45 to 54 years
+        J2VM028:     Income in the past 12 months below poverty level: Female: 55 to 64 years
+        J2VM029:     Income in the past 12 months below poverty level: Female: 65 to 74 years
+        J2VM030:     Income in the past 12 months below poverty level: Female: 75 years and over
+        J2VM031:     Income in the past 12 months at or above poverty level
+        J2VM032:     Income in the past 12 months at or above poverty level: Male
+        J2VM033:     Income in the past 12 months at or above poverty level: Male: Under 5 years
+        J2VM034:     Income in the past 12 months at or above poverty level: Male: 5 years
+        J2VM035:     Income in the past 12 months at or above poverty level: Male: 6 to 11 years
+        J2VM036:     Income in the past 12 months at or above poverty level: Male: 12 to 14 years
+        J2VM037:     Income in the past 12 months at or above poverty level: Male: 15 years
+        J2VM038:     Income in the past 12 months at or above poverty level: Male: 16 and 17 years
+        J2VM039:     Income in the past 12 months at or above poverty level: Male: 18 to 24 years
+        J2VM040:     Income in the past 12 months at or above poverty level: Male: 25 to 34 years
+        J2VM041:     Income in the past 12 months at or above poverty level: Male: 35 to 44 years
+        J2VM042:     Income in the past 12 months at or above poverty level: Male: 45 to 54 years
+        J2VM043:     Income in the past 12 months at or above poverty level: Male: 55 to 64 years
+        J2VM044:     Income in the past 12 months at or above poverty level: Male: 65 to 74 years
+        J2VM045:     Income in the past 12 months at or above poverty level: Male: 75 years and over
+        J2VM046:     Income in the past 12 months at or above poverty level: Female
+        J2VM047:     Income in the past 12 months at or above poverty level: Female: Under 5 years
+        J2VM048:     Income in the past 12 months at or above poverty level: Female: 5 years
+        J2VM049:     Income in the past 12 months at or above poverty level: Female: 6 to 11 years
+        J2VM050:     Income in the past 12 months at or above poverty level: Female: 12 to 14 years
+        J2VM051:     Income in the past 12 months at or above poverty level: Female: 15 years
+        J2VM052:     Income in the past 12 months at or above poverty level: Female: 16 and 17 years
+        J2VM053:     Income in the past 12 months at or above poverty level: Female: 18 to 24 years
+        J2VM054:     Income in the past 12 months at or above poverty level: Female: 25 to 34 years
+        J2VM055:     Income in the past 12 months at or above poverty level: Female: 35 to 44 years
+        J2VM056:     Income in the past 12 months at or above poverty level: Female: 45 to 54 years
+        J2VM057:     Income in the past 12 months at or above poverty level: Female: 55 to 64 years
+        J2VM058:     Income in the past 12 months at or above poverty level: Female: 65 to 74 years
+        J2VM059:     Income in the past 12 months at or above poverty level: Female: 75 years and over
+ 
+    Table 2:     Gini Index of Income Inequality
+    Universe:    Households
+    Source code: B19083
+    NHGIS code:  J4T
+        J4TM001:     Gini Index
+ 
+    Table 3:     Sex by Age by Employment Status for the Population 16 Years and Over
+    Universe:    Population 16 years and over
+    Source code: B23001
+    NHGIS code:  J6Q
+        J6QM001:     Total
+        J6QM002:     Male
+        J6QM003:     Male: 16 to 19 years
+        J6QM004:     Male: 16 to 19 years: In labor force
+        J6QM005:     Male: 16 to 19 years: In labor force: In Armed Forces
+        J6QM006:     Male: 16 to 19 years: In labor force: Civilian
+        J6QM007:     Male: 16 to 19 years: In labor force: Civilian: Employed
+        J6QM008:     Male: 16 to 19 years: In labor force: Civilian: Unemployed
+        J6QM009:     Male: 16 to 19 years: Not in labor force
+        J6QM010:     Male: 20 and 21 years
+        J6QM011:     Male: 20 and 21 years: In labor force
+        J6QM012:     Male: 20 and 21 years: In labor force: In Armed Forces
+        J6QM013:     Male: 20 and 21 years: In labor force: Civilian
+        J6QM014:     Male: 20 and 21 years: In labor force: Civilian: Employed
+        J6QM015:     Male: 20 and 21 years: In labor force: Civilian: Unemployed
+        J6QM016:     Male: 20 and 21 years: Not in labor force
+        J6QM017:     Male: 22 to 24 years
+        J6QM018:     Male: 22 to 24 years: In labor force
+        J6QM019:     Male: 22 to 24 years: In labor force: In Armed Forces
+        J6QM020:     Male: 22 to 24 years: In labor force: Civilian
+        J6QM021:     Male: 22 to 24 years: In labor force: Civilian: Employed
+        J6QM022:     Male: 22 to 24 years: In labor force: Civilian: Unemployed
+        J6QM023:     Male: 22 to 24 years: Not in labor force
+        J6QM024:     Male: 25 to 29 years
+        J6QM025:     Male: 25 to 29 years: In labor force
+        J6QM026:     Male: 25 to 29 years: In labor force: In Armed Forces
+        J6QM027:     Male: 25 to 29 years: In labor force: Civilian
+        J6QM028:     Male: 25 to 29 years: In labor force: Civilian: Employed
+        J6QM029:     Male: 25 to 29 years: In labor force: Civilian: Unemployed
+        J6QM030:     Male: 25 to 29 years: Not in labor force
+        J6QM031:     Male: 30 to 34 years
+        J6QM032:     Male: 30 to 34 years: In labor force
+        J6QM033:     Male: 30 to 34 years: In labor force: In Armed Forces
+        J6QM034:     Male: 30 to 34 years: In labor force: Civilian
+        J6QM035:     Male: 30 to 34 years: In labor force: Civilian: Employed
+        J6QM036:     Male: 30 to 34 years: In labor force: Civilian: Unemployed
+        J6QM037:     Male: 30 to 34 years: Not in labor force
+        J6QM038:     Male: 35 to 44 years
+        J6QM039:     Male: 35 to 44 years: In labor force
+        J6QM040:     Male: 35 to 44 years: In labor force: In Armed Forces
+        J6QM041:     Male: 35 to 44 years: In labor force: Civilian
+        J6QM042:     Male: 35 to 44 years: In labor force: Civilian: Employed
+        J6QM043:     Male: 35 to 44 years: In labor force: Civilian: Unemployed
+        J6QM044:     Male: 35 to 44 years: Not in labor force
+        J6QM045:     Male: 45 to 54 years
+        J6QM046:     Male: 45 to 54 years: In labor force
+        J6QM047:     Male: 45 to 54 years: In labor force: In Armed Forces
+        J6QM048:     Male: 45 to 54 years: In labor force: Civilian
+        J6QM049:     Male: 45 to 54 years: In labor force: Civilian: Employed
+        J6QM050:     Male: 45 to 54 years: In labor force: Civilian: Unemployed
+        J6QM051:     Male: 45 to 54 years: Not in labor force
+        J6QM052:     Male: 55 to 59 years
+        J6QM053:     Male: 55 to 59 years: In labor force
+        J6QM054:     Male: 55 to 59 years: In labor force: In Armed Forces
+        J6QM055:     Male: 55 to 59 years: In labor force: Civilian
+        J6QM056:     Male: 55 to 59 years: In labor force: Civilian: Employed
+        J6QM057:     Male: 55 to 59 years: In labor force: Civilian: Unemployed
+        J6QM058:     Male: 55 to 59 years: Not in labor force
+        J6QM059:     Male: 60 and 61 years
+        J6QM060:     Male: 60 and 61 years: In labor force
+        J6QM061:     Male: 60 and 61 years: In labor force: In Armed Forces
+        J6QM062:     Male: 60 and 61 years: In labor force: Civilian
+        J6QM063:     Male: 60 and 61 years: In labor force: Civilian: Employed
+        J6QM064:     Male: 60 and 61 years: In labor force: Civilian: Unemployed
+        J6QM065:     Male: 60 and 61 years: Not in labor force
+        J6QM066:     Male: 62 to 64 years
+        J6QM067:     Male: 62 to 64 years: In labor force
+        J6QM068:     Male: 62 to 64 years: In labor force: In Armed Forces
+        J6QM069:     Male: 62 to 64 years: In labor force: Civilian
+        J6QM070:     Male: 62 to 64 years: In labor force: Civilian: Employed
+        J6QM071:     Male: 62 to 64 years: In labor force: Civilian: Unemployed
+        J6QM072:     Male: 62 to 64 years: Not in labor force
+        J6QM073:     Male: 65 to 69 years
+        J6QM074:     Male: 65 to 69 years: In labor force
+        J6QM075:     Male: 65 to 69 years: In labor force: Employed
+        J6QM076:     Male: 65 to 69 years: In labor force: Unemployed
+        J6QM077:     Male: 65 to 69 years: Not in labor force
+        J6QM078:     Male: 70 to 74 years
+        J6QM079:     Male: 70 to 74 years: In labor force
+        J6QM080:     Male: 70 to 74 years: In labor force: Employed
+        J6QM081:     Male: 70 to 74 years: In labor force: Unemployed
+        J6QM082:     Male: 70 to 74 years: Not in labor force
+        J6QM083:     Male: 75 years and over
+        J6QM084:     Male: 75 years and over: In labor force
+        J6QM085:     Male: 75 years and over: In labor force: Employed
+        J6QM086:     Male: 75 years and over: In labor force: Unemployed
+        J6QM087:     Male: 75 years and over: Not in labor force
+        J6QM088:     Female
+        J6QM089:     Female: 16 to 19 years
+        J6QM090:     Female: 16 to 19 years: In labor force
+        J6QM091:     Female: 16 to 19 years: In labor force: In Armed Forces
+        J6QM092:     Female: 16 to 19 years: In labor force: Civilian
+        J6QM093:     Female: 16 to 19 years: In labor force: Civilian: Employed
+        J6QM094:     Female: 16 to 19 years: In labor force: Civilian: Unemployed
+        J6QM095:     Female: 16 to 19 years: Not in labor force
+        J6QM096:     Female: 20 and 21 years
+        J6QM097:     Female: 20 and 21 years: In labor force
+        J6QM098:     Female: 20 and 21 years: In labor force: In Armed Forces
+        J6QM099:     Female: 20 and 21 years: In labor force: Civilian
+        J6QM100:     Female: 20 and 21 years: In labor force: Civilian: Employed
+        J6QM101:     Female: 20 and 21 years: In labor force: Civilian: Unemployed
+        J6QM102:     Female: 20 and 21 years: Not in labor force
+        J6QM103:     Female: 22 to 24 years
+        J6QM104:     Female: 22 to 24 years: In labor force
+        J6QM105:     Female: 22 to 24 years: In labor force: In Armed Forces
+        J6QM106:     Female: 22 to 24 years: In labor force: Civilian
+        J6QM107:     Female: 22 to 24 years: In labor force: Civilian: Employed
+        J6QM108:     Female: 22 to 24 years: In labor force: Civilian: Unemployed
+        J6QM109:     Female: 22 to 24 years: Not in labor force
+        J6QM110:     Female: 25 to 29 years
+        J6QM111:     Female: 25 to 29 years: In labor force
+        J6QM112:     Female: 25 to 29 years: In labor force: In Armed Forces
+        J6QM113:     Female: 25 to 29 years: In labor force: Civilian
+        J6QM114:     Female: 25 to 29 years: In labor force: Civilian: Employed
+        J6QM115:     Female: 25 to 29 years: In labor force: Civilian: Unemployed
+        J6QM116:     Female: 25 to 29 years: Not in labor force
+        J6QM117:     Female: 30 to 34 years
+        J6QM118:     Female: 30 to 34 years: In labor force
+        J6QM119:     Female: 30 to 34 years: In labor force: In Armed Forces
+        J6QM120:     Female: 30 to 34 years: In labor force: Civilian
+        J6QM121:     Female: 30 to 34 years: In labor force: Civilian: Employed
+        J6QM122:     Female: 30 to 34 years: In labor force: Civilian: Unemployed
+        J6QM123:     Female: 30 to 34 years: Not in labor force
+        J6QM124:     Female: 35 to 44 years
+        J6QM125:     Female: 35 to 44 years: In labor force
+        J6QM126:     Female: 35 to 44 years: In labor force: In Armed Forces
+        J6QM127:     Female: 35 to 44 years: In labor force: Civilian
+        J6QM128:     Female: 35 to 44 years: In labor force: Civilian: Employed
+        J6QM129:     Female: 35 to 44 years: In labor force: Civilian: Unemployed
+        J6QM130:     Female: 35 to 44 years: Not in labor force
+        J6QM131:     Female: 45 to 54 years
+        J6QM132:     Female: 45 to 54 years: In labor force
+        J6QM133:     Female: 45 to 54 years: In labor force: In Armed Forces
+        J6QM134:     Female: 45 to 54 years: In labor force: Civilian
+        J6QM135:     Female: 45 to 54 years: In labor force: Civilian: Employed
+        J6QM136:     Female: 45 to 54 years: In labor force: Civilian: Unemployed
+        J6QM137:     Female: 45 to 54 years: Not in labor force
+        J6QM138:     Female: 55 to 59 years
+        J6QM139:     Female: 55 to 59 years: In labor force
+        J6QM140:     Female: 55 to 59 years: In labor force: In Armed Forces
+        J6QM141:     Female: 55 to 59 years: In labor force: Civilian
+        J6QM142:     Female: 55 to 59 years: In labor force: Civilian: Employed
+        J6QM143:     Female: 55 to 59 years: In labor force: Civilian: Unemployed
+        J6QM144:     Female: 55 to 59 years: Not in labor force
+        J6QM145:     Female: 60 and 61 years
+        J6QM146:     Female: 60 and 61 years: In labor force
+        J6QM147:     Female: 60 and 61 years: In labor force: In Armed Forces
+        J6QM148:     Female: 60 and 61 years: In labor force: Civilian
+        J6QM149:     Female: 60 and 61 years: In labor force: Civilian: Employed
+        J6QM150:     Female: 60 and 61 years: In labor force: Civilian: Unemployed
+        J6QM151:     Female: 60 and 61 years: Not in labor force
+        J6QM152:     Female: 62 to 64 years
+        J6QM153:     Female: 62 to 64 years: In labor force
+        J6QM154:     Female: 62 to 64 years: In labor force: In Armed Forces
+        J6QM155:     Female: 62 to 64 years: In labor force: Civilian
+        J6QM156:     Female: 62 to 64 years: In labor force: Civilian: Employed
+        J6QM157:     Female: 62 to 64 years: In labor force: Civilian: Unemployed
+        J6QM158:     Female: 62 to 64 years: Not in labor force
+        J6QM159:     Female: 65 to 69 years
+        J6QM160:     Female: 65 to 69 years: In labor force
+        J6QM161:     Female: 65 to 69 years: In labor force: Employed
+        J6QM162:     Female: 65 to 69 years: In labor force: Unemployed
+        J6QM163:     Female: 65 to 69 years: Not in labor force
+        J6QM164:     Female: 70 to 74 years
+        J6QM165:     Female: 70 to 74 years: In labor force
+        J6QM166:     Female: 70 to 74 years: In labor force: Employed
+        J6QM167:     Female: 70 to 74 years: In labor force: Unemployed
+        J6QM168:     Female: 70 to 74 years: Not in labor force
+        J6QM169:     Female: 75 years and over
+        J6QM170:     Female: 75 years and over: In labor force
+        J6QM171:     Female: 75 years and over: In labor force: Employed
+        J6QM172:     Female: 75 years and over: In labor force: Unemployed
+        J6QM173:     Female: 75 years and over: Not in labor force
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
