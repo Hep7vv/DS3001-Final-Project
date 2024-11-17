@@ -1,0 +1,1605 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0002_ds249_20205_county_M'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2016-2020
+Geographic level: County (by State)
+Dataset:          2020 American Community Survey: 5-Year Data [2016-2020, Block Groups & Larger Areas]
+   NHGIS code:    2016_2020_ACS5a
+   NHGIS ID:      ds249
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Total population
+   Source code: B01001
+   NHGIS code:  AMPK
+ 
+2. Median Age by Sex
+   Universe:    Total population
+   Source code: B01002
+   NHGIS code:  AMPL
+ 
+3. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  AMPV
+ 
+4. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  AMPW
+ 
+5. Detailed Race
+   Universe:    Total population
+   Source code: C02003
+   NHGIS code:  AMZA
+ 
+6. Black or African American Alone or in Combination with One or More Other Races
+   Universe:    Black or African American alone or in combination with one or more other races
+   Source code: B02009
+   NHGIS code:  AMPY
+ 
+7. Hispanic or Latino Origin by Race
+   Universe:    Total population
+   Source code: B03002
+   NHGIS code:  AMP3
+ 
+8. Hispanic or Latino Origin
+   Universe:    Total population
+   Source code: B03003
+   NHGIS code:  AMP4
+ 
+9. Geographical Mobility in the Past Year for Current Residence--Metropolitan Statistical Area Level in the United States
+   Universe:    Population 1 year and over living in a Metropolitan Statistical Area in the United States
+   Source code: B07201
+   NHGIS code:  AMP5
+ 
+10. Means of Transportation to Work by Travel Time to Work
+    Universe:    Workers 16 years and over who did not work from home
+    Source code: B08134
+    NHGIS code:  AMQH
+ 
+11. Means of Transportation to Work
+    Universe:    Workers 16 years and over
+    Source code: B08301
+    NHGIS code:  AMQK
+ 
+12. Travel Time to Work
+    Universe:    Workers 16 years and over who did not work from home
+    Source code: B08303
+    NHGIS code:  AMQM
+ 
+13. Own Children Under 18 Years by Family Type and Age
+    Universe:    Own children under 18 years
+    Source code: B09002
+    NHGIS code:  AMQN
+ 
+14. Household Type (Including Living Alone) by Relationship
+    Universe:    Total population
+    Source code: B09019
+    NHGIS code:  AMQP
+ 
+15. Household Type (Including Living Alone)
+    Universe:    Households
+    Source code: B11001
+    NHGIS code:  AMQS
+ 
+16. Households by Type
+    Universe:    Households
+    Source code: B11012
+    NHGIS code:  AMRI
+ 
+17. Household Type by Household Size
+    Universe:    Households
+    Source code: B11016
+    NHGIS code:  AMRK
+ 
+18. Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15002
+    NHGIS code:  AMRY
+ 
+19. Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15003
+    NHGIS code:  AMRZ
+ 
+20. Household Language by Household Limited English Speaking Status
+    Universe:    Households
+    Source code: C16002
+    NHGIS code:  AMZL
+ 
+21. Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  AMZM
+ 
+22. Poverty Status in the Past 12 Months of Families by Family Type by Presence of Related Children Under 18 Years by Age of Related Children
+    Universe:    Families
+    Source code: B17010
+    NHGIS code:  AMR3
+ 
+23. Poverty Status in the Past 12 Months by Household Type by Age of Householder
+    Universe:    Households
+    Source code: B17017
+    NHGIS code:  AMR5
+ 
+24. Poverty Status of Individuals in the Past 12 Months by Living Arrangement
+    Universe:    Population for whom poverty status is determined
+    Source code: B17021
+    NHGIS code:  AMR6
+ 
+25. Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19001
+    NHGIS code:  AMR7
+ 
+26. Median Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AMR8
+ 
+27. Aggregate Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19025
+    NHGIS code:  AMR9
+ 
+28. Public Assistance Income in the Past 12 Months for Households
+    Universe:    Households
+    Source code: B19057
+    NHGIS code:  AMSS
+ 
+29. Public Assistance Income or Food Stamps/SNAP in the Past 12 Months for Households
+    Universe:    Households
+    Source code: B19058
+    NHGIS code:  AMST
+ 
+30. Median Family Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Families
+    Source code: B19113
+    NHGIS code:  AMS6
+ 
+31. Per Capita Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Total population
+    Source code: B19301
+    NHGIS code:  AMTC
+ 
+32. Aggregate Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Population 15 years and over
+    Source code: B19313
+    NHGIS code:  AMTM
+ 
+33. Receipt of Food Stamps/SNAP in the Past 12 Months by Disability Status for Households
+    Universe:    Households
+    Source code: B22010
+    NHGIS code:  AMT2
+ 
+34. Employment Status for the Population 16 Years and Over
+    Universe:    Population 16 years and over
+    Source code: B23025
+    NHGIS code:  AMT9
+ 
+35. Sex by Occupation for the Civilian Employed Population 16 Years and Over
+    Universe:    Civilian employed population 16 years and over
+    Source code: C24010
+    NHGIS code:  AMZO
+ 
+36. Sex by Industry for the Civilian Employed Population 16 Years and Over
+    Universe:    Civilian employed population 16 years and over
+    Source code: C24030
+    NHGIS code:  AMZZ
+ 
+37. Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  AMUD
+ 
+38. Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  AMUE
+ 
+39. Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AMUF
+ 
+40. Vacancy Status
+    Universe:    Vacant housing units
+    Source code: B25004
+    NHGIS code:  AMUP
+ 
+41. Units in Structure
+    Universe:    Housing units
+    Source code: B25024
+    NHGIS code:  AMU4
+ 
+42. Year Structure Built
+    Universe:    Housing units
+    Source code: B25034
+    NHGIS code:  AMU7
+ 
+43. Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  AMU8
+ 
+44. Tenure by Vehicles Available
+    Universe:    Occupied housing units
+    Source code: B25044
+    NHGIS code:  AMVH
+ 
+45. Median Contract Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25058
+    NHGIS code:  AMVT
+ 
+46. Gross Rent
+    Universe:    Renter-occupied housing units
+    Source code: B25063
+    NHGIS code:  AMVY
+ 
+47. Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AMVZ
+ 
+48. Gross Rent as a Percentage of Household Income in the Past 12 Months
+    Universe:    Renter-occupied housing units
+    Source code: B25070
+    NHGIS code:  AMV5
+ 
+49. Median Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25071
+    NHGIS code:  AMV6
+ 
+50. Value
+    Universe:    Owner-occupied housing units
+    Source code: B25075
+    NHGIS code:  AMV9
+ 
+51. Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AMWB
+ 
+52. Types of Health Insurance Coverage by Age
+    Universe:    Civilian noninstitutionalized population
+    Source code: B27010
+    NHGIS code:  AMWQ
+ 
+53. Presence and Types of Internet Subscriptions in Household
+    Universe:    Households
+    Source code: B28002
+    NHGIS code:  AMWS
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place/Remainder Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2019-2021, 116th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Area Code
+        GEOID:       Census Geographic Identifier
+        NAME:        Area Name
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (M):
+    Margins of error
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  AMPK
+        AMPKM001:    Total
+        AMPKM002:    Male
+        AMPKM003:    Male: Under 5 years
+        AMPKM004:    Male: 5 to 9 years
+        AMPKM005:    Male: 10 to 14 years
+        AMPKM006:    Male: 15 to 17 years
+        AMPKM007:    Male: 18 and 19 years
+        AMPKM008:    Male: 20 years
+        AMPKM009:    Male: 21 years
+        AMPKM010:    Male: 22 to 24 years
+        AMPKM011:    Male: 25 to 29 years
+        AMPKM012:    Male: 30 to 34 years
+        AMPKM013:    Male: 35 to 39 years
+        AMPKM014:    Male: 40 to 44 years
+        AMPKM015:    Male: 45 to 49 years
+        AMPKM016:    Male: 50 to 54 years
+        AMPKM017:    Male: 55 to 59 years
+        AMPKM018:    Male: 60 and 61 years
+        AMPKM019:    Male: 62 to 64 years
+        AMPKM020:    Male: 65 and 66 years
+        AMPKM021:    Male: 67 to 69 years
+        AMPKM022:    Male: 70 to 74 years
+        AMPKM023:    Male: 75 to 79 years
+        AMPKM024:    Male: 80 to 84 years
+        AMPKM025:    Male: 85 years and over
+        AMPKM026:    Female
+        AMPKM027:    Female: Under 5 years
+        AMPKM028:    Female: 5 to 9 years
+        AMPKM029:    Female: 10 to 14 years
+        AMPKM030:    Female: 15 to 17 years
+        AMPKM031:    Female: 18 and 19 years
+        AMPKM032:    Female: 20 years
+        AMPKM033:    Female: 21 years
+        AMPKM034:    Female: 22 to 24 years
+        AMPKM035:    Female: 25 to 29 years
+        AMPKM036:    Female: 30 to 34 years
+        AMPKM037:    Female: 35 to 39 years
+        AMPKM038:    Female: 40 to 44 years
+        AMPKM039:    Female: 45 to 49 years
+        AMPKM040:    Female: 50 to 54 years
+        AMPKM041:    Female: 55 to 59 years
+        AMPKM042:    Female: 60 and 61 years
+        AMPKM043:    Female: 62 to 64 years
+        AMPKM044:    Female: 65 and 66 years
+        AMPKM045:    Female: 67 to 69 years
+        AMPKM046:    Female: 70 to 74 years
+        AMPKM047:    Female: 75 to 79 years
+        AMPKM048:    Female: 80 to 84 years
+        AMPKM049:    Female: 85 years and over
+ 
+    Table 2:     Median Age by Sex
+    Universe:    Total population
+    Source code: B01002
+    NHGIS code:  AMPL
+        AMPLM001:    Median age: Total
+        AMPLM002:    Median age: Male
+        AMPLM003:    Median age: Female
+ 
+    Table 3:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  AMPV
+        AMPVM001:    Total
+ 
+    Table 4:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AMPW
+        AMPWM001:    Total
+        AMPWM002:    White alone
+        AMPWM003:    Black or African American alone
+        AMPWM004:    American Indian and Alaska Native alone
+        AMPWM005:    Asian alone
+        AMPWM006:    Native Hawaiian and Other Pacific Islander alone
+        AMPWM007:    Some other race alone
+        AMPWM008:    Two or more races
+        AMPWM009:    Two or more races: Two races including Some other race
+        AMPWM010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 5:     Detailed Race
+    Universe:    Total population
+    Source code: C02003
+    NHGIS code:  AMZA
+        AMZAM001:    Total
+        AMZAM002:    Population of one race
+        AMZAM003:    Population of one race: White
+        AMZAM004:    Population of one race: Black or African American
+        AMZAM005:    Population of one race: American Indian and Alaska Native
+        AMZAM006:    Population of one race: Asian
+        AMZAM007:    Population of one race: Native Hawaiian and Other Pacific Islander
+        AMZAM008:    Population of one race: Some other race
+        AMZAM009:    Population of two or more races
+        AMZAM010:    Population of two or more races: Two races including Some other race
+        AMZAM011:    Population of two or more races: Two races excluding Some other race, and three or more races
+        AMZAM012:    Population of two or more races: Population of two races
+        AMZAM013:    Population of two or more races: Population of two races: White; Black or African American
+        AMZAM014:    Population of two or more races: Population of two races: White; American Indian and Alaska Native
+        AMZAM015:    Population of two or more races: Population of two races: White; Asian
+        AMZAM016:    Population of two or more races: Population of two races: Black or African American; American Indian and Alaska Native
+        AMZAM017:    Population of two or more races: Population of two races: All other two race combinations
+        AMZAM018:    Population of two or more races: Population of three races
+        AMZAM019:    Population of two or more races: Population of four or more races
+ 
+    Table 6:     Black or African American Alone or in Combination with One or More Other Races
+    Universe:    Black or African American alone or in combination with one or more other races
+    Source code: B02009
+    NHGIS code:  AMPY
+        AMPYM001:    Total
+ 
+    Table 7:     Hispanic or Latino Origin by Race
+    Universe:    Total population
+    Source code: B03002
+    NHGIS code:  AMP3
+        AMP3M001:    Total
+        AMP3M002:    Not Hispanic or Latino
+        AMP3M003:    Not Hispanic or Latino: White alone
+        AMP3M004:    Not Hispanic or Latino: Black or African American alone
+        AMP3M005:    Not Hispanic or Latino: American Indian and Alaska Native alone
+        AMP3M006:    Not Hispanic or Latino: Asian alone
+        AMP3M007:    Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AMP3M008:    Not Hispanic or Latino: Some other race alone
+        AMP3M009:    Not Hispanic or Latino: Two or more races
+        AMP3M010:    Not Hispanic or Latino: Two or more races: Two races including Some other race
+        AMP3M011:    Not Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+        AMP3M012:    Hispanic or Latino
+        AMP3M013:    Hispanic or Latino: White alone
+        AMP3M014:    Hispanic or Latino: Black or African American alone
+        AMP3M015:    Hispanic or Latino: American Indian and Alaska Native alone
+        AMP3M016:    Hispanic or Latino: Asian alone
+        AMP3M017:    Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+        AMP3M018:    Hispanic or Latino: Some other race alone
+        AMP3M019:    Hispanic or Latino: Two or more races
+        AMP3M020:    Hispanic or Latino: Two or more races: Two races including Some other race
+        AMP3M021:    Hispanic or Latino: Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 8:     Hispanic or Latino Origin
+    Universe:    Total population
+    Source code: B03003
+    NHGIS code:  AMP4
+        AMP4M001:    Total
+        AMP4M002:    Not Hispanic or Latino
+        AMP4M003:    Hispanic or Latino
+ 
+    Table 9:     Geographical Mobility in the Past Year for Current Residence--Metropolitan Statistical Area Level in the United States
+    Universe:    Population 1 year and over living in a Metropolitan Statistical Area in the United States
+    Source code: B07201
+    NHGIS code:  AMP5
+        AMP5M001:    Total
+        AMP5M002:    Same house 1 year ago
+        AMP5M003:    Different house in United States 1 year ago
+        AMP5M004:    Different house in United States 1 year ago: Same Metropolitan Statistical Area
+        AMP5M005:    Different house in United States 1 year ago: Same Metropolitan Statistical Area: Moved from principal city
+        AMP5M006:    Different house in United States 1 year ago: Same Metropolitan Statistical Area: Moved from remainder of Metropolitan Statistical Area
+        AMP5M007:    Different house in United States 1 year ago: Different Metropolitan Statistical Area
+        AMP5M008:    Different house in United States 1 year ago: Different Metropolitan Statistical Area: Moved from principal city
+        AMP5M009:    Different house in United States 1 year ago: Different Metropolitan Statistical Area: Moved from remainder of Metropolitan Statistical Area
+        AMP5M010:    Different house in United States 1 year ago: Micropolitan Statistical Area
+        AMP5M011:    Different house in United States 1 year ago: Micropolitan Statistical Area: Moved from principal city
+        AMP5M012:    Different house in United States 1 year ago: Micropolitan Statistical Area: Moved from remainder of Micropolitan Statistical Area
+        AMP5M013:    Different house in United States 1 year ago: Not in a Metropolitan or Micropolitan Statistical Area 1 year ago
+        AMP5M014:    Abroad 1 year ago
+ 
+    Table 10:    Means of Transportation to Work by Travel Time to Work
+    Universe:    Workers 16 years and over who did not work from home
+    Source code: B08134
+    NHGIS code:  AMQH
+        AMQHM001:    Total
+        AMQHM002:    Less than 10 minutes
+        AMQHM003:    10 to 14 minutes
+        AMQHM004:    15 to 19 minutes
+        AMQHM005:    20 to 24 minutes
+        AMQHM006:    25 to 29 minutes
+        AMQHM007:    30 to 34 minutes
+        AMQHM008:    35 to 44 minutes
+        AMQHM009:    45 to 59 minutes
+        AMQHM010:    60 or more minutes
+        AMQHM011:    Car, truck, or van
+        AMQHM012:    Car, truck, or van: Less than 10 minutes
+        AMQHM013:    Car, truck, or van: 10 to 14 minutes
+        AMQHM014:    Car, truck, or van: 15 to 19 minutes
+        AMQHM015:    Car, truck, or van: 20 to 24 minutes
+        AMQHM016:    Car, truck, or van: 25 to 29 minutes
+        AMQHM017:    Car, truck, or van: 30 to 34 minutes
+        AMQHM018:    Car, truck, or van: 35 to 44 minutes
+        AMQHM019:    Car, truck, or van: 45 to 59 minutes
+        AMQHM020:    Car, truck, or van: 60 or more minutes
+        AMQHM021:    Car, truck, or van: Drove alone
+        AMQHM022:    Car, truck, or van: Drove alone: Less than 10 minutes
+        AMQHM023:    Car, truck, or van: Drove alone: 10 to 14 minutes
+        AMQHM024:    Car, truck, or van: Drove alone: 15 to 19 minutes
+        AMQHM025:    Car, truck, or van: Drove alone: 20 to 24 minutes
+        AMQHM026:    Car, truck, or van: Drove alone: 25 to 29 minutes
+        AMQHM027:    Car, truck, or van: Drove alone: 30 to 34 minutes
+        AMQHM028:    Car, truck, or van: Drove alone: 35 to 44 minutes
+        AMQHM029:    Car, truck, or van: Drove alone: 45 to 59 minutes
+        AMQHM030:    Car, truck, or van: Drove alone: 60 or more minutes
+        AMQHM031:    Car, truck, or van: Carpooled
+        AMQHM032:    Car, truck, or van: Carpooled: Less than 10 minutes
+        AMQHM033:    Car, truck, or van: Carpooled: 10 to 14 minutes
+        AMQHM034:    Car, truck, or van: Carpooled: 15 to 19 minutes
+        AMQHM035:    Car, truck, or van: Carpooled: 20 to 24 minutes
+        AMQHM036:    Car, truck, or van: Carpooled: 25 to 29 minutes
+        AMQHM037:    Car, truck, or van: Carpooled: 30 to 34 minutes
+        AMQHM038:    Car, truck, or van: Carpooled: 35 to 44 minutes
+        AMQHM039:    Car, truck, or van: Carpooled: 45 to 59 minutes
+        AMQHM040:    Car, truck, or van: Carpooled: 60 or more minutes
+        AMQHM041:    Car, truck, or van: Carpooled: In 2-person carpool
+        AMQHM042:    Car, truck, or van: Carpooled: In 2-person carpool: Less than 10 minutes
+        AMQHM043:    Car, truck, or van: Carpooled: In 2-person carpool: 10 to 14 minutes
+        AMQHM044:    Car, truck, or van: Carpooled: In 2-person carpool: 15 to 19 minutes
+        AMQHM045:    Car, truck, or van: Carpooled: In 2-person carpool: 20 to 24 minutes
+        AMQHM046:    Car, truck, or van: Carpooled: In 2-person carpool: 25 to 29 minutes
+        AMQHM047:    Car, truck, or van: Carpooled: In 2-person carpool: 30 to 34 minutes
+        AMQHM048:    Car, truck, or van: Carpooled: In 2-person carpool: 35 to 44 minutes
+        AMQHM049:    Car, truck, or van: Carpooled: In 2-person carpool: 45 to 59 minutes
+        AMQHM050:    Car, truck, or van: Carpooled: In 2-person carpool: 60 or more minutes
+        AMQHM051:    Car, truck, or van: Carpooled: In 3-or-more-person carpool
+        AMQHM052:    Car, truck, or van: Carpooled: In 3-or-more-person carpool: Less than 10 minutes
+        AMQHM053:    Car, truck, or van: Carpooled: In 3-or-more-person carpool: 10 to 14 minutes
+        AMQHM054:    Car, truck, or van: Carpooled: In 3-or-more-person carpool: 15 to 19 minutes
+        AMQHM055:    Car, truck, or van: Carpooled: In 3-or-more-person carpool: 20 to 24 minutes
+        AMQHM056:    Car, truck, or van: Carpooled: In 3-or-more-person carpool: 25 to 29 minutes
+        AMQHM057:    Car, truck, or van: Carpooled: In 3-or-more-person carpool: 30 to 34 minutes
+        AMQHM058:    Car, truck, or van: Carpooled: In 3-or-more-person carpool: 35 to 44 minutes
+        AMQHM059:    Car, truck, or van: Carpooled: In 3-or-more-person carpool: 45 to 59 minutes
+        AMQHM060:    Car, truck, or van: Carpooled: In 3-or-more-person carpool: 60 or more minutes
+        AMQHM061:    Public transportation (excluding taxicab)
+        AMQHM062:    Public transportation (excluding taxicab): Less than 10 minutes
+        AMQHM063:    Public transportation (excluding taxicab): 10 to 14 minutes
+        AMQHM064:    Public transportation (excluding taxicab): 15 to 19 minutes
+        AMQHM065:    Public transportation (excluding taxicab): 20 to 24 minutes
+        AMQHM066:    Public transportation (excluding taxicab): 25 to 29 minutes
+        AMQHM067:    Public transportation (excluding taxicab): 30 to 34 minutes
+        AMQHM068:    Public transportation (excluding taxicab): 35 to 44 minutes
+        AMQHM069:    Public transportation (excluding taxicab): 45 to 59 minutes
+        AMQHM070:    Public transportation (excluding taxicab): 60 or more minutes
+        AMQHM071:    Public transportation (excluding taxicab): Bus
+        AMQHM072:    Public transportation (excluding taxicab): Bus: Less than 10 minutes
+        AMQHM073:    Public transportation (excluding taxicab): Bus: 10 to 14 minutes
+        AMQHM074:    Public transportation (excluding taxicab): Bus: 15 to 19 minutes
+        AMQHM075:    Public transportation (excluding taxicab): Bus: 20 to 24 minutes
+        AMQHM076:    Public transportation (excluding taxicab): Bus: 25 to 29 minutes
+        AMQHM077:    Public transportation (excluding taxicab): Bus: 30 to 34 minutes
+        AMQHM078:    Public transportation (excluding taxicab): Bus: 35 to 44 minutes
+        AMQHM079:    Public transportation (excluding taxicab): Bus: 45 to 59 minutes
+        AMQHM080:    Public transportation (excluding taxicab): Bus: 60 or more minutes
+        AMQHM081:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico)
+        AMQHM082:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico): Less than 10 minutes
+        AMQHM083:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico): 10 to 14 minutes
+        AMQHM084:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico): 15 to 19 minutes
+        AMQHM085:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico): 20 to 24 minutes
+        AMQHM086:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico): 25 to 29 minutes
+        AMQHM087:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico): 30 to 34 minutes
+        AMQHM088:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico): 35 to 44 minutes
+        AMQHM089:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico): 45 to 59 minutes
+        AMQHM090:    Public transportation (excluding taxicab): Subway or elevated rail, Light rail, streetcar, or trolley (carro publico in Puerto Rico): 60 or more minutes
+        AMQHM091:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat
+        AMQHM092:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat: Less than 10 minutes
+        AMQHM093:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat: 10 to 14 minutes
+        AMQHM094:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat: 15 to 19 minutes
+        AMQHM095:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat: 20 to 24 minutes
+        AMQHM096:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat: 25 to 29 minutes
+        AMQHM097:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat: 30 to 34 minutes
+        AMQHM098:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat: 35 to 44 minutes
+        AMQHM099:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat: 45 to 59 minutes
+        AMQHM100:    Public transportation (excluding taxicab): Long-distance train or commuter rail or Ferryboat: 60 or more minutes
+        AMQHM101:    Walked
+        AMQHM102:    Walked: Less than 10 minutes
+        AMQHM103:    Walked: 10 to 14 minutes
+        AMQHM104:    Walked: 15 to 19 minutes
+        AMQHM105:    Walked: 20 to 24 minutes
+        AMQHM106:    Walked: 25 to 29 minutes
+        AMQHM107:    Walked: 30 to 34 minutes
+        AMQHM108:    Walked: 35 to 44 minutes
+        AMQHM109:    Walked: 45 to 59 minutes
+        AMQHM110:    Walked: 60 or more minutes
+        AMQHM111:    Taxicab, motorcycle, bicycle, or other means
+        AMQHM112:    Taxicab, motorcycle, bicycle, or other means: Less than 10 minutes
+        AMQHM113:    Taxicab, motorcycle, bicycle, or other means: 10 to 14 minutes
+        AMQHM114:    Taxicab, motorcycle, bicycle, or other means: 15 to 19 minutes
+        AMQHM115:    Taxicab, motorcycle, bicycle, or other means: 20 to 24 minutes
+        AMQHM116:    Taxicab, motorcycle, bicycle, or other means: 25 to 29 minutes
+        AMQHM117:    Taxicab, motorcycle, bicycle, or other means: 30 to 34 minutes
+        AMQHM118:    Taxicab, motorcycle, bicycle, or other means: 35 to 44 minutes
+        AMQHM119:    Taxicab, motorcycle, bicycle, or other means: 45 to 59 minutes
+        AMQHM120:    Taxicab, motorcycle, bicycle, or other means: 60 or more minutes
+ 
+    Table 11:    Means of Transportation to Work
+    Universe:    Workers 16 years and over
+    Source code: B08301
+    NHGIS code:  AMQK
+        AMQKM001:    Total
+        AMQKM002:    Car, truck, or van
+        AMQKM003:    Car, truck, or van: Drove alone
+        AMQKM004:    Car, truck, or van: Carpooled
+        AMQKM005:    Car, truck, or van: Carpooled: In 2-person carpool
+        AMQKM006:    Car, truck, or van: Carpooled: In 3-person carpool
+        AMQKM007:    Car, truck, or van: Carpooled: In 4-person carpool
+        AMQKM008:    Car, truck, or van: Carpooled: In 5- or 6-person carpool
+        AMQKM009:    Car, truck, or van: Carpooled: In 7-or-more-person carpool
+        AMQKM010:    Public transportation (excluding taxicab)
+        AMQKM011:    Public transportation (excluding taxicab): Bus
+        AMQKM012:    Public transportation (excluding taxicab): Subway or elevated rail
+        AMQKM013:    Public transportation (excluding taxicab): Long-distance train or commuter rail
+        AMQKM014:    Public transportation (excluding taxicab): Light rail, streetcar or trolley (carro publico in Puerto Rico)
+        AMQKM015:    Public transportation (excluding taxicab): Ferryboat
+        AMQKM016:    Taxicab
+        AMQKM017:    Motorcycle
+        AMQKM018:    Bicycle
+        AMQKM019:    Walked
+        AMQKM020:    Other means
+        AMQKM021:    Worked from home
+ 
+    Table 12:    Travel Time to Work
+    Universe:    Workers 16 years and over who did not work from home
+    Source code: B08303
+    NHGIS code:  AMQM
+        AMQMM001:    Total
+        AMQMM002:    Less than 5 minutes
+        AMQMM003:    5 to 9 minutes
+        AMQMM004:    10 to 14 minutes
+        AMQMM005:    15 to 19 minutes
+        AMQMM006:    20 to 24 minutes
+        AMQMM007:    25 to 29 minutes
+        AMQMM008:    30 to 34 minutes
+        AMQMM009:    35 to 39 minutes
+        AMQMM010:    40 to 44 minutes
+        AMQMM011:    45 to 59 minutes
+        AMQMM012:    60 to 89 minutes
+        AMQMM013:    90 or more minutes
+ 
+    Table 13:    Own Children Under 18 Years by Family Type and Age
+    Universe:    Own children under 18 years
+    Source code: B09002
+    NHGIS code:  AMQN
+        AMQNM001:    Total
+        AMQNM002:    In married-couple families
+        AMQNM003:    In married-couple families: Under 3 years
+        AMQNM004:    In married-couple families: 3 and 4 years
+        AMQNM005:    In married-couple families: 5 years
+        AMQNM006:    In married-couple families: 6 to 11 years
+        AMQNM007:    In married-couple families: 12 to 17 years
+        AMQNM008:    In other families
+        AMQNM009:    In other families: Male householder, no spouse present
+        AMQNM010:    In other families: Male householder, no spouse present: Under 3 years
+        AMQNM011:    In other families: Male householder, no spouse present: 3 and 4 years
+        AMQNM012:    In other families: Male householder, no spouse present: 5 years
+        AMQNM013:    In other families: Male householder, no spouse present: 6 to 11 years
+        AMQNM014:    In other families: Male householder, no spouse present: 12 to 17 years
+        AMQNM015:    In other families: Female householder, no spouse present
+        AMQNM016:    In other families: Female householder, no spouse present: Under 3 years
+        AMQNM017:    In other families: Female householder, no spouse present: 3 and 4 years
+        AMQNM018:    In other families: Female householder, no spouse present: 5 years
+        AMQNM019:    In other families: Female householder, no spouse present: 6 to 11 years
+        AMQNM020:    In other families: Female householder, no spouse present: 12 to 17 years
+ 
+    Table 14:    Household Type (Including Living Alone) by Relationship
+    Universe:    Total population
+    Source code: B09019
+    NHGIS code:  AMQP
+        AMQPM001:    Total
+        AMQPM002:    In households
+        AMQPM003:    In households: Householder
+        AMQPM004:    In households: Householder: Male
+        AMQPM005:    In households: Householder: Male: Living alone
+        AMQPM006:    In households: Householder: Male: Not living alone
+        AMQPM007:    In households: Householder: Female
+        AMQPM008:    In households: Householder: Female: Living alone
+        AMQPM009:    In households: Householder: Female: Not living alone
+        AMQPM010:    In households: Opposite-sex spouse
+        AMQPM011:    In households: Same-sex spouse
+        AMQPM012:    In households: Opposite-sex unmarried partner
+        AMQPM013:    In households: Same-sex unmarried partner
+        AMQPM014:    In households: Child
+        AMQPM015:    In households: Child: Biological child
+        AMQPM016:    In households: Child: Adopted child
+        AMQPM017:    In households: Child: Stepchild
+        AMQPM018:    In households: Grandchild
+        AMQPM019:    In households: Brother or sister
+        AMQPM020:    In households: Parent
+        AMQPM021:    In households: Parent-in-law
+        AMQPM022:    In households: Son-in-law or daughter-in-law
+        AMQPM023:    In households: Other relatives
+        AMQPM024:    In households: Foster child
+        AMQPM025:    In households: Other nonrelatives
+        AMQPM026:    In group quarters
+ 
+    Table 15:    Household Type (Including Living Alone)
+    Universe:    Households
+    Source code: B11001
+    NHGIS code:  AMQS
+        AMQSM001:    Total
+        AMQSM002:    Family households
+        AMQSM003:    Family households: Married-couple family
+        AMQSM004:    Family households: Other family
+        AMQSM005:    Family households: Other family: Male householder, no spouse present
+        AMQSM006:    Family households: Other family: Female householder, no spouse present
+        AMQSM007:    Nonfamily households
+        AMQSM008:    Nonfamily households: Householder living alone
+        AMQSM009:    Nonfamily households: Householder not living alone
+ 
+    Table 16:    Households by Type
+    Universe:    Households
+    Source code: B11012
+    NHGIS code:  AMRI
+        AMRIM001:    Total
+        AMRIM002:    Married-couple household
+        AMRIM003:    Married-couple household: With children of the householder under 18 years
+        AMRIM004:    Married-couple household: With no children of the householder under 18 years
+        AMRIM005:    Cohabiting couple household
+        AMRIM006:    Cohabiting couple household: With children of the householder under 18 years
+        AMRIM007:    Cohabiting couple household: With no children of the householder under 18 years
+        AMRIM008:    Female householder, no spouse or partner present
+        AMRIM009:    Female householder, no spouse or partner present: Living alone
+        AMRIM010:    Female householder, no spouse or partner present: With children of the householder under 18 years
+        AMRIM011:    Female householder, no spouse or partner present: With relatives, no children of the householder under 18 years
+        AMRIM012:    Female householder, no spouse or partner present: With only nonrelatives present
+        AMRIM013:    Male householder, no spouse or partner present
+        AMRIM014:    Male householder, no spouse or partner present: Living alone
+        AMRIM015:    Male householder, no spouse or partner present: With children of the householder under 18 years
+        AMRIM016:    Male householder, no spouse or partner present: With relatives, no children of the householder under 18 years
+        AMRIM017:    Male householder, no spouse or partner present: With only nonrelatives present
+ 
+    Table 17:    Household Type by Household Size
+    Universe:    Households
+    Source code: B11016
+    NHGIS code:  AMRK
+        AMRKM001:    Total
+        AMRKM002:    Family households
+        AMRKM003:    Family households: 2-person household
+        AMRKM004:    Family households: 3-person household
+        AMRKM005:    Family households: 4-person household
+        AMRKM006:    Family households: 5-person household
+        AMRKM007:    Family households: 6-person household
+        AMRKM008:    Family households: 7-or-more person household
+        AMRKM009:    Nonfamily households
+        AMRKM010:    Nonfamily households: 1-person household
+        AMRKM011:    Nonfamily households: 2-person household
+        AMRKM012:    Nonfamily households: 3-person household
+        AMRKM013:    Nonfamily households: 4-person household
+        AMRKM014:    Nonfamily households: 5-person household
+        AMRKM015:    Nonfamily households: 6-person household
+        AMRKM016:    Nonfamily households: 7-or-more person household
+ 
+    Table 18:    Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15002
+    NHGIS code:  AMRY
+        AMRYM001:    Total
+        AMRYM002:    Male
+        AMRYM003:    Male: No schooling completed
+        AMRYM004:    Male: Nursery to 4th grade
+        AMRYM005:    Male: 5th and 6th grade
+        AMRYM006:    Male: 7th and 8th grade
+        AMRYM007:    Male: 9th grade
+        AMRYM008:    Male: 10th grade
+        AMRYM009:    Male: 11th grade
+        AMRYM010:    Male: 12th grade, no diploma
+        AMRYM011:    Male: High school graduate (includes equivalency)
+        AMRYM012:    Male: Some college, less than 1 year
+        AMRYM013:    Male: Some college, 1 or more years, no degree
+        AMRYM014:    Male: Associate's degree
+        AMRYM015:    Male: Bachelor's degree
+        AMRYM016:    Male: Master's degree
+        AMRYM017:    Male: Professional school degree
+        AMRYM018:    Male: Doctorate degree
+        AMRYM019:    Female
+        AMRYM020:    Female: No schooling completed
+        AMRYM021:    Female: Nursery to 4th grade
+        AMRYM022:    Female: 5th and 6th grade
+        AMRYM023:    Female: 7th and 8th grade
+        AMRYM024:    Female: 9th grade
+        AMRYM025:    Female: 10th grade
+        AMRYM026:    Female: 11th grade
+        AMRYM027:    Female: 12th grade, no diploma
+        AMRYM028:    Female: High school graduate (includes equivalency)
+        AMRYM029:    Female: Some college, less than 1 year
+        AMRYM030:    Female: Some college, 1 or more years, no degree
+        AMRYM031:    Female: Associate's degree
+        AMRYM032:    Female: Bachelor's degree
+        AMRYM033:    Female: Master's degree
+        AMRYM034:    Female: Professional school degree
+        AMRYM035:    Female: Doctorate degree
+ 
+    Table 19:    Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15003
+    NHGIS code:  AMRZ
+        AMRZM001:    Total
+        AMRZM002:    No schooling completed
+        AMRZM003:    Nursery school
+        AMRZM004:    Kindergarten
+        AMRZM005:    1st grade
+        AMRZM006:    2nd grade
+        AMRZM007:    3rd grade
+        AMRZM008:    4th grade
+        AMRZM009:    5th grade
+        AMRZM010:    6th grade
+        AMRZM011:    7th grade
+        AMRZM012:    8th grade
+        AMRZM013:    9th grade
+        AMRZM014:    10th grade
+        AMRZM015:    11th grade
+        AMRZM016:    12th grade, no diploma
+        AMRZM017:    Regular high school diploma
+        AMRZM018:    GED or alternative credential
+        AMRZM019:    Some college, less than 1 year
+        AMRZM020:    Some college, 1 or more years, no degree
+        AMRZM021:    Associate's degree
+        AMRZM022:    Bachelor's degree
+        AMRZM023:    Master's degree
+        AMRZM024:    Professional school degree
+        AMRZM025:    Doctorate degree
+ 
+    Table 20:    Household Language by Household Limited English Speaking Status
+    Universe:    Households
+    Source code: C16002
+    NHGIS code:  AMZL
+        AMZLM001:    Total
+        AMZLM002:    English only
+        AMZLM003:    Spanish
+        AMZLM004:    Spanish: Limited English speaking household
+        AMZLM005:    Spanish: Not a limited English speaking household
+        AMZLM006:    Other Indo-European languages
+        AMZLM007:    Other Indo-European languages: Limited English speaking household
+        AMZLM008:    Other Indo-European languages: Not a limited English speaking household
+        AMZLM009:    Asian and Pacific Island languages
+        AMZLM010:    Asian and Pacific Island languages: Limited English speaking household
+        AMZLM011:    Asian and Pacific Island languages: Not a limited English speaking household
+        AMZLM012:    Other languages
+        AMZLM013:    Other languages: Limited English speaking household
+        AMZLM014:    Other languages: Not a limited English speaking household
+ 
+    Table 21:    Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  AMZM
+        AMZMM001:    Total
+        AMZMM002:    Under .50
+        AMZMM003:    .50 to .99
+        AMZMM004:    1.00 to 1.24
+        AMZMM005:    1.25 to 1.49
+        AMZMM006:    1.50 to 1.84
+        AMZMM007:    1.85 to 1.99
+        AMZMM008:    2.00 and over
+ 
+    Table 22:    Poverty Status in the Past 12 Months of Families by Family Type by Presence of Related Children Under 18 Years by Age of Related Children
+    Universe:    Families
+    Source code: B17010
+    NHGIS code:  AMR3
+        AMR3M001:    Total
+        AMR3M002:    Income in the past 12 months below poverty level
+        AMR3M003:    Income in the past 12 months below poverty level: Married-couple family
+        AMR3M004:    Income in the past 12 months below poverty level: Married-couple family: With related children of the householder under 18 years
+        AMR3M005:    Income in the past 12 months below poverty level: Married-couple family: With related children of the householder under 18 years: Under 5 years only
+        AMR3M006:    Income in the past 12 months below poverty level: Married-couple family: With related children of the householder under 18 years: Under 5 years and 5 to 17 years
+        AMR3M007:    Income in the past 12 months below poverty level: Married-couple family: With related children of the householder under 18 years: 5 to 17 years only
+        AMR3M008:    Income in the past 12 months below poverty level: Married-couple family: No related children of the householder under 18 years
+        AMR3M009:    Income in the past 12 months below poverty level: Other family
+        AMR3M010:    Income in the past 12 months below poverty level: Other family: Male householder, no spouse present
+        AMR3M011:    Income in the past 12 months below poverty level: Other family: Male householder, no spouse present: With related children of the householder under 18 years
+        AMR3M012:    Income in the past 12 months below poverty level: Other family: Male householder, no spouse present: With related children of the householder under 18 years: Under 5 years only
+        AMR3M013:    Income in the past 12 months below poverty level: Other family: Male householder, no spouse present: With related children of the householder under 18 years: Under 5 years and 5 to 17 years
+        AMR3M014:    Income in the past 12 months below poverty level: Other family: Male householder, no spouse present: With related children of the householder under 18 years: 5 to 17 years only
+        AMR3M015:    Income in the past 12 months below poverty level: Other family: Male householder, no spouse present: No related children of the householder under 18 years
+        AMR3M016:    Income in the past 12 months below poverty level: Other family: Female householder, no spouse present
+        AMR3M017:    Income in the past 12 months below poverty level: Other family: Female householder, no spouse present: With related children of the householder under 18 years
+        AMR3M018:    Income in the past 12 months below poverty level: Other family: Female householder, no spouse present: With related children of the householder under 18 years: Under 5 years only
+        AMR3M019:    Income in the past 12 months below poverty level: Other family: Female householder, no spouse present: With related children of the householder under 18 years: Under 5 years and 5 to 17 years
+        AMR3M020:    Income in the past 12 months below poverty level: Other family: Female householder, no spouse present: With related children of the householder under 18 years: 5 to 17 years only
+        AMR3M021:    Income in the past 12 months below poverty level: Other family: Female householder, no spouse present: No related children of the householder under 18 years
+        AMR3M022:    Income in the past 12 months at or above poverty level
+        AMR3M023:    Income in the past 12 months at or above poverty level: Married-couple family
+        AMR3M024:    Income in the past 12 months at or above poverty level: Married-couple family: With related children of the householder under 18 years
+        AMR3M025:    Income in the past 12 months at or above poverty level: Married-couple family: With related children of the householder under 18 years: Under 5 years only
+        AMR3M026:    Income in the past 12 months at or above poverty level: Married-couple family: With related children of the householder under 18 years: Under 5 years and 5 to 17 years
+        AMR3M027:    Income in the past 12 months at or above poverty level: Married-couple family: With related children of the householder under 18 years: 5 to 17 years only
+        AMR3M028:    Income in the past 12 months at or above poverty level: Married-couple family: No related children of the householder under 18 years
+        AMR3M029:    Income in the past 12 months at or above poverty level: Other family
+        AMR3M030:    Income in the past 12 months at or above poverty level: Other family: Male householder, no spouse present
+        AMR3M031:    Income in the past 12 months at or above poverty level: Other family: Male householder, no spouse present: With related children of the householder under 18 years
+        AMR3M032:    Income in the past 12 months at or above poverty level: Other family: Male householder, no spouse present: With related children of the householder under 18 years: Under 5 years only
+        AMR3M033:    Income in the past 12 months at or above poverty level: Other family: Male householder, no spouse present: With related children of the householder under 18 years: Under 5 years and 5 to 17 years
+        AMR3M034:    Income in the past 12 months at or above poverty level: Other family: Male householder, no spouse present: With related children of the householder under 18 years: 5 to 17 years only
+        AMR3M035:    Income in the past 12 months at or above poverty level: Other family: Male householder, no spouse present: No related children of the householder under 18 years
+        AMR3M036:    Income in the past 12 months at or above poverty level: Other family: Female householder, no spouse present
+        AMR3M037:    Income in the past 12 months at or above poverty level: Other family: Female householder, no spouse present: With related children of the householder under 18 years
+        AMR3M038:    Income in the past 12 months at or above poverty level: Other family: Female householder, no spouse present: With related children of the householder under 18 years: Under 5 years only
+        AMR3M039:    Income in the past 12 months at or above poverty level: Other family: Female householder, no spouse present: With related children of the householder under 18 years: Under 5 years and 5 to 17 years
+        AMR3M040:    Income in the past 12 months at or above poverty level: Other family: Female householder, no spouse present: With related children of the householder under 18 years: 5 to 17 years only
+        AMR3M041:    Income in the past 12 months at or above poverty level: Other family: Female householder, no spouse present: No related children of the householder under 18 years
+ 
+    Table 23:    Poverty Status in the Past 12 Months by Household Type by Age of Householder
+    Universe:    Households
+    Source code: B17017
+    NHGIS code:  AMR5
+        AMR5M001:    Total
+        AMR5M002:    Income in the past 12 months below poverty level
+        AMR5M003:    Income in the past 12 months below poverty level: Family households
+        AMR5M004:    Income in the past 12 months below poverty level: Family households: Married-couple family
+        AMR5M005:    Income in the past 12 months below poverty level: Family households: Married-couple family: Householder under 25 years
+        AMR5M006:    Income in the past 12 months below poverty level: Family households: Married-couple family: Householder 25 to 44 years
+        AMR5M007:    Income in the past 12 months below poverty level: Family households: Married-couple family: Householder 45 to 64 years
+        AMR5M008:    Income in the past 12 months below poverty level: Family households: Married-couple family: Householder 65 years and over
+        AMR5M009:    Income in the past 12 months below poverty level: Family households: Other family
+        AMR5M010:    Income in the past 12 months below poverty level: Family households: Other family: Male householder, no spouse present
+        AMR5M011:    Income in the past 12 months below poverty level: Family households: Other family: Male householder, no spouse present: Householder under 25 years
+        AMR5M012:    Income in the past 12 months below poverty level: Family households: Other family: Male householder, no spouse present: Householder 25 to 44 years
+        AMR5M013:    Income in the past 12 months below poverty level: Family households: Other family: Male householder, no spouse present: Householder 45 to 64 years
+        AMR5M014:    Income in the past 12 months below poverty level: Family households: Other family: Male householder, no spouse present: Householder 65 years and over
+        AMR5M015:    Income in the past 12 months below poverty level: Family households: Other family: Female householder, no spouse present
+        AMR5M016:    Income in the past 12 months below poverty level: Family households: Other family: Female householder, no spouse present: Householder under 25 years
+        AMR5M017:    Income in the past 12 months below poverty level: Family households: Other family: Female householder, no spouse present: Householder 25 to 44 years
+        AMR5M018:    Income in the past 12 months below poverty level: Family households: Other family: Female householder, no spouse present: Householder 45 to 64 years
+        AMR5M019:    Income in the past 12 months below poverty level: Family households: Other family: Female householder, no spouse present: Householder 65 years and over
+        AMR5M020:    Income in the past 12 months below poverty level: Nonfamily households
+        AMR5M021:    Income in the past 12 months below poverty level: Nonfamily households: Male householder
+        AMR5M022:    Income in the past 12 months below poverty level: Nonfamily households: Male householder: Householder under 25 years
+        AMR5M023:    Income in the past 12 months below poverty level: Nonfamily households: Male householder: Householder 25 to 44 years
+        AMR5M024:    Income in the past 12 months below poverty level: Nonfamily households: Male householder: Householder 45 to 64 years
+        AMR5M025:    Income in the past 12 months below poverty level: Nonfamily households: Male householder: Householder 65 years and over
+        AMR5M026:    Income in the past 12 months below poverty level: Nonfamily households: Female householder
+        AMR5M027:    Income in the past 12 months below poverty level: Nonfamily households: Female householder: Householder under 25 years
+        AMR5M028:    Income in the past 12 months below poverty level: Nonfamily households: Female householder: Householder 25 to 44 years
+        AMR5M029:    Income in the past 12 months below poverty level: Nonfamily households: Female householder: Householder 45 to 64 years
+        AMR5M030:    Income in the past 12 months below poverty level: Nonfamily households: Female householder: Householder 65 years and over
+        AMR5M031:    Income in the past 12 months at or above poverty level
+        AMR5M032:    Income in the past 12 months at or above poverty level: Family households
+        AMR5M033:    Income in the past 12 months at or above poverty level: Family households: Married-couple family
+        AMR5M034:    Income in the past 12 months at or above poverty level: Family households: Married-couple family: Householder under 25 years
+        AMR5M035:    Income in the past 12 months at or above poverty level: Family households: Married-couple family: Householder 25 to 44 years
+        AMR5M036:    Income in the past 12 months at or above poverty level: Family households: Married-couple family: Householder 45 to 64 years
+        AMR5M037:    Income in the past 12 months at or above poverty level: Family households: Married-couple family: Householder 65 years and over
+        AMR5M038:    Income in the past 12 months at or above poverty level: Family households: Other family
+        AMR5M039:    Income in the past 12 months at or above poverty level: Family households: Other family: Male householder, no spouse present
+        AMR5M040:    Income in the past 12 months at or above poverty level: Family households: Other family: Male householder, no spouse present: Householder under 25 years
+        AMR5M041:    Income in the past 12 months at or above poverty level: Family households: Other family: Male householder, no spouse present: Householder 25 to 44 years
+        AMR5M042:    Income in the past 12 months at or above poverty level: Family households: Other family: Male householder, no spouse present: Householder 45 to 64 years
+        AMR5M043:    Income in the past 12 months at or above poverty level: Family households: Other family: Male householder, no spouse present: Householder 65 years and over
+        AMR5M044:    Income in the past 12 months at or above poverty level: Family households: Other family: Female householder, no spouse present
+        AMR5M045:    Income in the past 12 months at or above poverty level: Family households: Other family: Female householder, no spouse present: Householder under 25 years
+        AMR5M046:    Income in the past 12 months at or above poverty level: Family households: Other family: Female householder, no spouse present: Householder 25 to 44 years
+        AMR5M047:    Income in the past 12 months at or above poverty level: Family households: Other family: Female householder, no spouse present: Householder 45 to 64 years
+        AMR5M048:    Income in the past 12 months at or above poverty level: Family households: Other family: Female householder, no spouse present: Householder 65 years and over
+        AMR5M049:    Income in the past 12 months at or above poverty level: Nonfamily households
+        AMR5M050:    Income in the past 12 months at or above poverty level: Nonfamily households: Male householder
+        AMR5M051:    Income in the past 12 months at or above poverty level: Nonfamily households: Male householder: Householder under 25 years
+        AMR5M052:    Income in the past 12 months at or above poverty level: Nonfamily households: Male householder: Householder 25 to 44 years
+        AMR5M053:    Income in the past 12 months at or above poverty level: Nonfamily households: Male householder: Householder 45 to 64 years
+        AMR5M054:    Income in the past 12 months at or above poverty level: Nonfamily households: Male householder: Householder 65 years and over
+        AMR5M055:    Income in the past 12 months at or above poverty level: Nonfamily households: Female householder
+        AMR5M056:    Income in the past 12 months at or above poverty level: Nonfamily households: Female householder: Householder under 25 years
+        AMR5M057:    Income in the past 12 months at or above poverty level: Nonfamily households: Female householder: Householder 25 to 44 years
+        AMR5M058:    Income in the past 12 months at or above poverty level: Nonfamily households: Female householder: Householder 45 to 64 years
+        AMR5M059:    Income in the past 12 months at or above poverty level: Nonfamily households: Female householder: Householder 65 years and over
+ 
+    Table 24:    Poverty Status of Individuals in the Past 12 Months by Living Arrangement
+    Universe:    Population for whom poverty status is determined
+    Source code: B17021
+    NHGIS code:  AMR6
+        AMR6M001:    Total
+        AMR6M002:    Income in the past 12 months below poverty level
+        AMR6M003:    Income in the past 12 months below poverty level: In family households
+        AMR6M004:    Income in the past 12 months below poverty level: In family households: In married couple families
+        AMR6M005:    Income in the past 12 months below poverty level: In family households: In married couple families: All relatives
+        AMR6M006:    Income in the past 12 months below poverty level: In family households: In married couple families: Non-relatives
+        AMR6M007:    Income in the past 12 months below poverty level: In family households: In other families
+        AMR6M008:    Income in the past 12 months below poverty level: In family households: In other families: Male householder, no spouse present
+        AMR6M009:    Income in the past 12 months below poverty level: In family households: In other families: Male householder, no spouse present: All relatives
+        AMR6M010:    Income in the past 12 months below poverty level: In family households: In other families: Male householder, no spouse present: Non-relatives
+        AMR6M011:    Income in the past 12 months below poverty level: In family households: In other families: Female householder, no spouse present
+        AMR6M012:    Income in the past 12 months below poverty level: In family households: In other families: Female householder, no spouse present: All relatives
+        AMR6M013:    Income in the past 12 months below poverty level: In family households: In other families: Female householder, no spouse present: Non-relatives
+        AMR6M014:    Income in the past 12 months below poverty level: In non-family households and other living arrangement
+        AMR6M015:    Income in the past 12 months below poverty level: In non-family households and other living arrangement: Householder
+        AMR6M016:    Income in the past 12 months below poverty level: In non-family households and other living arrangement: Householder: Living alone
+        AMR6M017:    Income in the past 12 months below poverty level: In non-family households and other living arrangement: Householder: Not living alone
+        AMR6M018:    Income in the past 12 months below poverty level: In non-family households and other living arrangement: Other living arrangement
+        AMR6M019:    Income in the past 12 months at or above poverty level
+        AMR6M020:    Income in the past 12 months at or above poverty level: In family households
+        AMR6M021:    Income in the past 12 months at or above poverty level: In family households: In married couple families
+        AMR6M022:    Income in the past 12 months at or above poverty level: In family households: In married couple families: All relatives
+        AMR6M023:    Income in the past 12 months at or above poverty level: In family households: In married couple families: Non-relatives
+        AMR6M024:    Income in the past 12 months at or above poverty level: In family households: In other families
+        AMR6M025:    Income in the past 12 months at or above poverty level: In family households: In other families: Male householder, no spouse present
+        AMR6M026:    Income in the past 12 months at or above poverty level: In family households: In other families: Male householder, no spouse present: All relatives
+        AMR6M027:    Income in the past 12 months at or above poverty level: In family households: In other families: Male householder, no spouse present: Non-relatives
+        AMR6M028:    Income in the past 12 months at or above poverty level: In family households: In other families: Female householder, no spouse present
+        AMR6M029:    Income in the past 12 months at or above poverty level: In family households: In other families: Female householder, no spouse present: All relatives
+        AMR6M030:    Income in the past 12 months at or above poverty level: In family households: In other families: Female householder, no spouse present: Non-relatives
+        AMR6M031:    Income in the past 12 months at or above poverty level: In non-family households and other living arrangement
+        AMR6M032:    Income in the past 12 months at or above poverty level: In non-family households and other living arrangement: Householder
+        AMR6M033:    Income in the past 12 months at or above poverty level: In non-family households and other living arrangement: Householder: Living alone
+        AMR6M034:    Income in the past 12 months at or above poverty level: In non-family households and other living arrangement: Householder: Not living alone
+        AMR6M035:    Income in the past 12 months at or above poverty level: In non-family households and other living arrangement: Other living arrangement
+ 
+    Table 25:    Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19001
+    NHGIS code:  AMR7
+        AMR7M001:    Total
+        AMR7M002:    Less than $10,000
+        AMR7M003:    $10,000 to $14,999
+        AMR7M004:    $15,000 to $19,999
+        AMR7M005:    $20,000 to $24,999
+        AMR7M006:    $25,000 to $29,999
+        AMR7M007:    $30,000 to $34,999
+        AMR7M008:    $35,000 to $39,999
+        AMR7M009:    $40,000 to $44,999
+        AMR7M010:    $45,000 to $49,999
+        AMR7M011:    $50,000 to $59,999
+        AMR7M012:    $60,000 to $74,999
+        AMR7M013:    $75,000 to $99,999
+        AMR7M014:    $100,000 to $124,999
+        AMR7M015:    $125,000 to $149,999
+        AMR7M016:    $150,000 to $199,999
+        AMR7M017:    $200,000 or more
+ 
+    Table 26:    Median Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  AMR8
+        AMR8M001:    Median household income in the past 12 months (in 2020 inflation-adjusted dollars)
+ 
+    Table 27:    Aggregate Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19025
+    NHGIS code:  AMR9
+        AMR9M001:    Aggregate household income in the past 12 months (in 2020 inflation-adjusted dollars)
+ 
+    Table 28:    Public Assistance Income in the Past 12 Months for Households
+    Universe:    Households
+    Source code: B19057
+    NHGIS code:  AMSS
+        AMSSM001:    Total
+        AMSSM002:    With public assistance income
+        AMSSM003:    No public assistance income
+ 
+    Table 29:    Public Assistance Income or Food Stamps/SNAP in the Past 12 Months for Households
+    Universe:    Households
+    Source code: B19058
+    NHGIS code:  AMST
+        AMSTM001:    Total
+        AMSTM002:    With cash public assistance or Food Stamps/SNAP
+        AMSTM003:    No cash public assistance or Food Stamps/SNAP
+ 
+    Table 30:    Median Family Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Families
+    Source code: B19113
+    NHGIS code:  AMS6
+        AMS6M001:    Median family income in the past 12 months (in 2020 inflation-adjusted dollars)
+ 
+    Table 31:    Per Capita Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Total population
+    Source code: B19301
+    NHGIS code:  AMTC
+        AMTCM001:    Per capita income in the past 12 months (in 2020 inflation-adjusted dollars)
+ 
+    Table 32:    Aggregate Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)
+    Universe:    Population 15 years and over
+    Source code: B19313
+    NHGIS code:  AMTM
+        AMTMM001:    Aggregate income in the past 12 months (in 2020 inflation-adjusted dollars)
+ 
+    Table 33:    Receipt of Food Stamps/SNAP in the Past 12 Months by Disability Status for Households
+    Universe:    Households
+    Source code: B22010
+    NHGIS code:  AMT2
+        AMT2M001:    Total
+        AMT2M002:    Household received Food Stamps/SNAP in the past 12 months
+        AMT2M003:    Household received Food Stamps/SNAP in the past 12 months: Households with 1 or more persons with a disability
+        AMT2M004:    Household received Food Stamps/SNAP in the past 12 months: Households with no persons with a disability
+        AMT2M005:    Household did not receive Food Stamps/SNAP in the past 12 months
+        AMT2M006:    Household did not receive Food Stamps/SNAP in the past 12 months: Households with 1 or more persons with a disability
+        AMT2M007:    Household did not receive Food Stamps/SNAP in the past 12 months: Households with no persons with a disability
+ 
+    Table 34:    Employment Status for the Population 16 Years and Over
+    Universe:    Population 16 years and over
+    Source code: B23025
+    NHGIS code:  AMT9
+        AMT9M001:    Total
+        AMT9M002:    In labor force
+        AMT9M003:    In labor force: Civilian labor force
+        AMT9M004:    In labor force: Civilian labor force: Employed
+        AMT9M005:    In labor force: Civilian labor force: Unemployed
+        AMT9M006:    In labor force: Armed Forces
+        AMT9M007:    Not in labor force
+ 
+    Table 35:    Sex by Occupation for the Civilian Employed Population 16 Years and Over
+    Universe:    Civilian employed population 16 years and over
+    Source code: C24010
+    NHGIS code:  AMZO
+        AMZOM001:    Total
+        AMZOM002:    Male
+        AMZOM003:    Male: Management, business, science, and arts occupations
+        AMZOM004:    Male: Management, business, science, and arts occupations: Management, business, and financial occupations
+        AMZOM005:    Male: Management, business, science, and arts occupations: Management, business, and financial occupations: Management occupations
+        AMZOM006:    Male: Management, business, science, and arts occupations: Management, business, and financial occupations: Business and financial operations occupations
+        AMZOM007:    Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations
+        AMZOM008:    Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Computer and mathematical occupations
+        AMZOM009:    Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Architecture and engineering occupations
+        AMZOM010:    Male: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Life, physical, and social science occupations
+        AMZOM011:    Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations
+        AMZOM012:    Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Community and social service occupations
+        AMZOM013:    Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Legal occupations
+        AMZOM014:    Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Educational instruction, and library occupations
+        AMZOM015:    Male: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Arts, design, entertainment, sports, and media occupations
+        AMZOM016:    Male: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations
+        AMZOM017:    Male: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health diagnosing and treating practitioners and other technical occupations
+        AMZOM018:    Male: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health technologists and technicians
+        AMZOM019:    Male: Service occupations
+        AMZOM020:    Male: Service occupations: Healthcare support occupations
+        AMZOM021:    Male: Service occupations: Protective service occupations
+        AMZOM022:    Male: Service occupations: Protective service occupations: Firefighting and prevention, and other protective service workers including supervisors
+        AMZOM023:    Male: Service occupations: Protective service occupations: Law enforcement workers including supervisors
+        AMZOM024:    Male: Service occupations: Food preparation and serving related occupations
+        AMZOM025:    Male: Service occupations: Building and grounds cleaning and maintenance occupations
+        AMZOM026:    Male: Service occupations: Personal care and service occupations
+        AMZOM027:    Male: Sales and office occupations
+        AMZOM028:    Male: Sales and office occupations: Sales and related occupations
+        AMZOM029:    Male: Sales and office occupations: Office and administrative support occupations
+        AMZOM030:    Male: Natural resources, construction, and maintenance occupations
+        AMZOM031:    Male: Natural resources, construction, and maintenance occupations: Farming, fishing, and forestry occupations
+        AMZOM032:    Male: Natural resources, construction, and maintenance occupations: Construction and extraction occupations
+        AMZOM033:    Male: Natural resources, construction, and maintenance occupations: Installation, maintenance, and repair occupations
+        AMZOM034:    Male: Production, transportation, and material moving occupations
+        AMZOM035:    Male: Production, transportation, and material moving occupations: Production occupations
+        AMZOM036:    Male: Production, transportation, and material moving occupations: Transportation occupations
+        AMZOM037:    Male: Production, transportation, and material moving occupations: Material moving occupations
+        AMZOM038:    Female
+        AMZOM039:    Female: Management, business, science, and arts occupations
+        AMZOM040:    Female: Management, business, science, and arts occupations: Management, business, and financial occupations
+        AMZOM041:    Female: Management, business, science, and arts occupations: Management, business, and financial occupations: Management occupations
+        AMZOM042:    Female: Management, business, science, and arts occupations: Management, business, and financial occupations: Business and financial operations occupations
+        AMZOM043:    Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations
+        AMZOM044:    Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Computer and mathematical occupations
+        AMZOM045:    Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Architecture and engineering occupations
+        AMZOM046:    Female: Management, business, science, and arts occupations: Computer, engineering, and science occupations: Life, physical, and social science occupations
+        AMZOM047:    Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations
+        AMZOM048:    Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Community and social service occupations
+        AMZOM049:    Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Legal occupations
+        AMZOM050:    Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Educational instruction, and library occupations
+        AMZOM051:    Female: Management, business, science, and arts occupations: Education, legal, community service, arts, and media occupations: Arts, design, entertainment, sports, and media occupations
+        AMZOM052:    Female: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations
+        AMZOM053:    Female: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health diagnosing and treating practitioners and other technical occupations
+        AMZOM054:    Female: Management, business, science, and arts occupations: Healthcare practitioners and technical occupations: Health technologists and technicians
+        AMZOM055:    Female: Service occupations
+        AMZOM056:    Female: Service occupations: Healthcare support occupations
+        AMZOM057:    Female: Service occupations: Protective service occupations
+        AMZOM058:    Female: Service occupations: Protective service occupations: Firefighting and prevention, and other protective service workers including supervisors
+        AMZOM059:    Female: Service occupations: Protective service occupations: Law enforcement workers including supervisors
+        AMZOM060:    Female: Service occupations: Food preparation and serving related occupations
+        AMZOM061:    Female: Service occupations: Building and grounds cleaning and maintenance occupations
+        AMZOM062:    Female: Service occupations: Personal care and service occupations
+        AMZOM063:    Female: Sales and office occupations
+        AMZOM064:    Female: Sales and office occupations: Sales and related occupations
+        AMZOM065:    Female: Sales and office occupations: Office and administrative support occupations
+        AMZOM066:    Female: Natural resources, construction, and maintenance occupations
+        AMZOM067:    Female: Natural resources, construction, and maintenance occupations: Farming, fishing, and forestry occupations
+        AMZOM068:    Female: Natural resources, construction, and maintenance occupations: Construction and extraction occupations
+        AMZOM069:    Female: Natural resources, construction, and maintenance occupations: Installation, maintenance, and repair occupations
+        AMZOM070:    Female: Production, transportation, and material moving occupations
+        AMZOM071:    Female: Production, transportation, and material moving occupations: Production occupations
+        AMZOM072:    Female: Production, transportation, and material moving occupations: Transportation occupations
+        AMZOM073:    Female: Production, transportation, and material moving occupations: Material moving occupations
+ 
+    Table 36:    Sex by Industry for the Civilian Employed Population 16 Years and Over
+    Universe:    Civilian employed population 16 years and over
+    Source code: C24030
+    NHGIS code:  AMZZ
+        AMZZM001:    Total
+        AMZZM002:    Male
+        AMZZM003:    Male: Agriculture, forestry, fishing and hunting, and mining
+        AMZZM004:    Male: Agriculture, forestry, fishing and hunting, and mining: Agriculture, forestry, fishing and hunting
+        AMZZM005:    Male: Agriculture, forestry, fishing and hunting, and mining: Mining, quarrying, and oil and gas extraction
+        AMZZM006:    Male: Construction
+        AMZZM007:    Male: Manufacturing
+        AMZZM008:    Male: Wholesale trade
+        AMZZM009:    Male: Retail trade
+        AMZZM010:    Male: Transportation and warehousing, and utilities
+        AMZZM011:    Male: Transportation and warehousing, and utilities: Transportation and warehousing
+        AMZZM012:    Male: Transportation and warehousing, and utilities: Utilities
+        AMZZM013:    Male: Information
+        AMZZM014:    Male: Finance and insurance, and real estate, and rental and leasing
+        AMZZM015:    Male: Finance and insurance, and real estate, and rental and leasing: Finance and insurance
+        AMZZM016:    Male: Finance and insurance, and real estate, and rental and leasing: Real estate and rental and leasing
+        AMZZM017:    Male: Professional, scientific, and management, and administrative, and waste management services
+        AMZZM018:    Male: Professional, scientific, and management, and administrative, and waste management services: Professional, scientific, and technical services
+        AMZZM019:    Male: Professional, scientific, and management, and administrative, and waste management services: Management of companies and enterprises
+        AMZZM020:    Male: Professional, scientific, and management, and administrative, and waste management services: Administrative and support and waste management services
+        AMZZM021:    Male: Educational services, and health care and social assistance
+        AMZZM022:    Male: Educational services, and health care and social assistance: Educational services
+        AMZZM023:    Male: Educational services, and health care and social assistance: Health care and social assistance
+        AMZZM024:    Male: Arts, entertainment, and recreation, and accommodation and food services
+        AMZZM025:    Male: Arts, entertainment, and recreation, and accommodation and food services: Arts, entertainment, and recreation
+        AMZZM026:    Male: Arts, entertainment, and recreation, and accommodation and food services: Accommodation and food services
+        AMZZM027:    Male: Other services, except public administration
+        AMZZM028:    Male: Public administration
+        AMZZM029:    Female
+        AMZZM030:    Female: Agriculture, forestry, fishing and hunting, and mining
+        AMZZM031:    Female: Agriculture, forestry, fishing and hunting, and mining: Agriculture, forestry, fishing and hunting
+        AMZZM032:    Female: Agriculture, forestry, fishing and hunting, and mining: Mining, quarrying, and oil and gas extraction
+        AMZZM033:    Female: Construction
+        AMZZM034:    Female: Manufacturing
+        AMZZM035:    Female: Wholesale trade
+        AMZZM036:    Female: Retail trade
+        AMZZM037:    Female: Transportation and warehousing, and utilities
+        AMZZM038:    Female: Transportation and warehousing, and utilities: Transportation and warehousing
+        AMZZM039:    Female: Transportation and warehousing, and utilities: Utilities
+        AMZZM040:    Female: Information
+        AMZZM041:    Female: Finance and insurance, and real estate, and rental and leasing
+        AMZZM042:    Female: Finance and insurance, and real estate, and rental and leasing: Finance and insurance
+        AMZZM043:    Female: Finance and insurance, and real estate, and rental and leasing: Real estate and rental and leasing
+        AMZZM044:    Female: Professional, scientific, and management, and administrative, and waste management services
+        AMZZM045:    Female: Professional, scientific, and management, and administrative, and waste management services: Professional, scientific, and technical services
+        AMZZM046:    Female: Professional, scientific, and management, and administrative, and waste management services: Management of companies and enterprises
+        AMZZM047:    Female: Professional, scientific, and management, and administrative, and waste management services: Administrative and support and waste management services
+        AMZZM048:    Female: Educational services, and health care and social assistance
+        AMZZM049:    Female: Educational services, and health care and social assistance: Educational services
+        AMZZM050:    Female: Educational services, and health care and social assistance: Health care and social assistance
+        AMZZM051:    Female: Arts, entertainment, and recreation, and accommodation and food services
+        AMZZM052:    Female: Arts, entertainment, and recreation, and accommodation and food services: Arts, entertainment, and recreation
+        AMZZM053:    Female: Arts, entertainment, and recreation, and accommodation and food services: Accommodation and food services
+        AMZZM054:    Female: Other services, except public administration
+        AMZZM055:    Female: Public administration
+ 
+    Table 37:    Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  AMUD
+        AMUDM001:    Total
+ 
+    Table 38:    Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  AMUE
+        AMUEM001:    Total
+        AMUEM002:    Occupied
+        AMUEM003:    Vacant
+ 
+    Table 39:    Tenure
+    Universe:    Occupied housing units
+    Source code: B25003
+    NHGIS code:  AMUF
+        AMUFM001:    Total
+        AMUFM002:    Owner occupied
+        AMUFM003:    Renter occupied
+ 
+    Table 40:    Vacancy Status
+    Universe:    Vacant housing units
+    Source code: B25004
+    NHGIS code:  AMUP
+        AMUPM001:    Total
+        AMUPM002:    For rent
+        AMUPM003:    Rented, not occupied
+        AMUPM004:    For sale only
+        AMUPM005:    Sold, not occupied
+        AMUPM006:    For seasonal, recreational, or occasional use
+        AMUPM007:    For migrant workers
+        AMUPM008:    Other vacant
+ 
+    Table 41:    Units in Structure
+    Universe:    Housing units
+    Source code: B25024
+    NHGIS code:  AMU4
+        AMU4M001:    Total
+        AMU4M002:    1, detached
+        AMU4M003:    1, attached
+        AMU4M004:    2
+        AMU4M005:    3 or 4
+        AMU4M006:    5 to 9
+        AMU4M007:    10 to 19
+        AMU4M008:    20 to 49
+        AMU4M009:    50 or more
+        AMU4M010:    Mobile home
+        AMU4M011:    Boat, RV, van, etc.
+ 
+    Table 42:    Year Structure Built
+    Universe:    Housing units
+    Source code: B25034
+    NHGIS code:  AMU7
+        AMU7M001:    Total
+        AMU7M002:    Built 2014 or later
+        AMU7M003:    Built 2010 to 2013
+        AMU7M004:    Built 2000 to 2009
+        AMU7M005:    Built 1990 to 1999
+        AMU7M006:    Built 1980 to 1989
+        AMU7M007:    Built 1970 to 1979
+        AMU7M008:    Built 1960 to 1969
+        AMU7M009:    Built 1950 to 1959
+        AMU7M010:    Built 1940 to 1949
+        AMU7M011:    Built 1939 or earlier
+ 
+    Table 43:    Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  AMU8
+        AMU8M001:    Median year structure built
+ 
+    Table 44:    Tenure by Vehicles Available
+    Universe:    Occupied housing units
+    Source code: B25044
+    NHGIS code:  AMVH
+        AMVHM001:    Total
+        AMVHM002:    Owner occupied
+        AMVHM003:    Owner occupied: No vehicle available
+        AMVHM004:    Owner occupied: 1 vehicle available
+        AMVHM005:    Owner occupied: 2 vehicles available
+        AMVHM006:    Owner occupied: 3 vehicles available
+        AMVHM007:    Owner occupied: 4 vehicles available
+        AMVHM008:    Owner occupied: 5 or more vehicles available
+        AMVHM009:    Renter occupied
+        AMVHM010:    Renter occupied: No vehicle available
+        AMVHM011:    Renter occupied: 1 vehicle available
+        AMVHM012:    Renter occupied: 2 vehicles available
+        AMVHM013:    Renter occupied: 3 vehicles available
+        AMVHM014:    Renter occupied: 4 vehicles available
+        AMVHM015:    Renter occupied: 5 or more vehicles available
+ 
+    Table 45:    Median Contract Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25058
+    NHGIS code:  AMVT
+        AMVTM001:    Median contract rent
+ 
+    Table 46:    Gross Rent
+    Universe:    Renter-occupied housing units
+    Source code: B25063
+    NHGIS code:  AMVY
+        AMVYM001:    Total
+        AMVYM002:    With cash rent
+        AMVYM003:    With cash rent: Less than $100
+        AMVYM004:    With cash rent: $100 to $149
+        AMVYM005:    With cash rent: $150 to $199
+        AMVYM006:    With cash rent: $200 to $249
+        AMVYM007:    With cash rent: $250 to $299
+        AMVYM008:    With cash rent: $300 to $349
+        AMVYM009:    With cash rent: $350 to $399
+        AMVYM010:    With cash rent: $400 to $449
+        AMVYM011:    With cash rent: $450 to $499
+        AMVYM012:    With cash rent: $500 to $549
+        AMVYM013:    With cash rent: $550 to $599
+        AMVYM014:    With cash rent: $600 to $649
+        AMVYM015:    With cash rent: $650 to $699
+        AMVYM016:    With cash rent: $700 to $749
+        AMVYM017:    With cash rent: $750 to $799
+        AMVYM018:    With cash rent: $800 to $899
+        AMVYM019:    With cash rent: $900 to $999
+        AMVYM020:    With cash rent: $1,000 to $1,249
+        AMVYM021:    With cash rent: $1,250 to $1,499
+        AMVYM022:    With cash rent: $1,500 to $1,999
+        AMVYM023:    With cash rent: $2,000 to $2,499
+        AMVYM024:    With cash rent: $2,500 to $2,999
+        AMVYM025:    With cash rent: $3,000 to $3,499
+        AMVYM026:    With cash rent: $3,500 or more
+        AMVYM027:    No cash rent
+ 
+    Table 47:    Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  AMVZ
+        AMVZM001:    Median gross rent
+ 
+    Table 48:    Gross Rent as a Percentage of Household Income in the Past 12 Months
+    Universe:    Renter-occupied housing units
+    Source code: B25070
+    NHGIS code:  AMV5
+        AMV5M001:    Total
+        AMV5M002:    Less than 10.0 percent
+        AMV5M003:    10.0 to 14.9 percent
+        AMV5M004:    15.0 to 19.9 percent
+        AMV5M005:    20.0 to 24.9 percent
+        AMV5M006:    25.0 to 29.9 percent
+        AMV5M007:    30.0 to 34.9 percent
+        AMV5M008:    35.0 to 39.9 percent
+        AMV5M009:    40.0 to 49.9 percent
+        AMV5M010:    50.0 percent or more
+        AMV5M011:    Not computed
+ 
+    Table 49:    Median Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25071
+    NHGIS code:  AMV6
+        AMV6M001:    Median gross rent as a percentage of household income
+ 
+    Table 50:    Value
+    Universe:    Owner-occupied housing units
+    Source code: B25075
+    NHGIS code:  AMV9
+        AMV9M001:    Total
+        AMV9M002:    Less than $10,000
+        AMV9M003:    $10,000 to $14,999
+        AMV9M004:    $15,000 to $19,999
+        AMV9M005:    $20,000 to $24,999
+        AMV9M006:    $25,000 to $29,999
+        AMV9M007:    $30,000 to $34,999
+        AMV9M008:    $35,000 to $39,999
+        AMV9M009:    $40,000 to $49,999
+        AMV9M010:    $50,000 to $59,999
+        AMV9M011:    $60,000 to $69,999
+        AMV9M012:    $70,000 to $79,999
+        AMV9M013:    $80,000 to $89,999
+        AMV9M014:    $90,000 to $99,999
+        AMV9M015:    $100,000 to $124,999
+        AMV9M016:    $125,000 to $149,999
+        AMV9M017:    $150,000 to $174,999
+        AMV9M018:    $175,000 to $199,999
+        AMV9M019:    $200,000 to $249,999
+        AMV9M020:    $250,000 to $299,999
+        AMV9M021:    $300,000 to $399,999
+        AMV9M022:    $400,000 to $499,999
+        AMV9M023:    $500,000 to $749,999
+        AMV9M024:    $750,000 to $999,999
+        AMV9M025:    $1,000,000 to $1,499,999
+        AMV9M026:    $1,500,000 to $1,999,999
+        AMV9M027:    $2,000,000 or more
+ 
+    Table 51:    Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  AMWB
+        AMWBM001:    Median value (dollars)
+ 
+    Table 52:    Types of Health Insurance Coverage by Age
+    Universe:    Civilian noninstitutionalized population
+    Source code: B27010
+    NHGIS code:  AMWQ
+        AMWQM001:    Total
+        AMWQM002:    Under 19 years
+        AMWQM003:    Under 19 years: With one type of health insurance coverage
+        AMWQM004:    Under 19 years: With one type of health insurance coverage: With employer-based health insurance only
+        AMWQM005:    Under 19 years: With one type of health insurance coverage: With direct-purchase health insurance only
+        AMWQM006:    Under 19 years: With one type of health insurance coverage: With Medicare coverage only
+        AMWQM007:    Under 19 years: With one type of health insurance coverage: With Medicaid/means-tested public coverage only
+        AMWQM008:    Under 19 years: With one type of health insurance coverage: With TRICARE/military health coverage only
+        AMWQM009:    Under 19 years: With one type of health insurance coverage: With VA Health Care only
+        AMWQM010:    Under 19 years: With two or more types of health insurance coverage
+        AMWQM011:    Under 19 years: With two or more types of health insurance coverage: With employer-based and direct-purchase coverage
+        AMWQM012:    Under 19 years: With two or more types of health insurance coverage: With employer-based and Medicare coverage
+        AMWQM013:    Under 19 years: With two or more types of health insurance coverage: With Medicare and Medicaid/means-tested public coverage
+        AMWQM014:    Under 19 years: With two or more types of health insurance coverage: Other private only combinations
+        AMWQM015:    Under 19 years: With two or more types of health insurance coverage: Other public only combinations
+        AMWQM016:    Under 19 years: With two or more types of health insurance coverage: Other coverage combinations
+        AMWQM017:    Under 19 years: No health insurance coverage
+        AMWQM018:    19 to 34 years
+        AMWQM019:    19 to 34 years: With one type of health insurance coverage
+        AMWQM020:    19 to 34 years: With one type of health insurance coverage: With employer-based health insurance only
+        AMWQM021:    19 to 34 years: With one type of health insurance coverage: With direct-purchase health insurance only
+        AMWQM022:    19 to 34 years: With one type of health insurance coverage: With Medicare coverage only
+        AMWQM023:    19 to 34 years: With one type of health insurance coverage: With Medicaid/means-tested public coverage only
+        AMWQM024:    19 to 34 years: With one type of health insurance coverage: With TRICARE/military health coverage only
+        AMWQM025:    19 to 34 years: With one type of health insurance coverage: With VA Health Care only
+        AMWQM026:    19 to 34 years: With two or more types of health insurance coverage
+        AMWQM027:    19 to 34 years: With two or more types of health insurance coverage: With employer-based and direct-purchase coverage
+        AMWQM028:    19 to 34 years: With two or more types of health insurance coverage: With employer-based and Medicare coverage
+        AMWQM029:    19 to 34 years: With two or more types of health insurance coverage: With Medicare and Medicaid/means-tested public coverage
+        AMWQM030:    19 to 34 years: With two or more types of health insurance coverage: Other private only combinations
+        AMWQM031:    19 to 34 years: With two or more types of health insurance coverage: Other public only combinations
+        AMWQM032:    19 to 34 years: With two or more types of health insurance coverage: Other coverage combinations
+        AMWQM033:    19 to 34 years: No health insurance coverage
+        AMWQM034:    35 to 64 years
+        AMWQM035:    35 to 64 years: With one type of health insurance coverage
+        AMWQM036:    35 to 64 years: With one type of health insurance coverage: With employer-based health insurance only
+        AMWQM037:    35 to 64 years: With one type of health insurance coverage: With direct-purchase health insurance only
+        AMWQM038:    35 to 64 years: With one type of health insurance coverage: With Medicare coverage only
+        AMWQM039:    35 to 64 years: With one type of health insurance coverage: With Medicaid/means-tested public coverage only
+        AMWQM040:    35 to 64 years: With one type of health insurance coverage: With TRICARE/military health coverage only
+        AMWQM041:    35 to 64 years: With one type of health insurance coverage: With VA Health Care only
+        AMWQM042:    35 to 64 years: With two or more types of health insurance coverage
+        AMWQM043:    35 to 64 years: With two or more types of health insurance coverage: With employer-based and direct-purchase coverage
+        AMWQM044:    35 to 64 years: With two or more types of health insurance coverage: With employer-based and Medicare coverage
+        AMWQM045:    35 to 64 years: With two or more types of health insurance coverage: With direct-purchase and Medicare coverage
+        AMWQM046:    35 to 64 years: With two or more types of health insurance coverage: With Medicare and Medicaid/means-tested public coverage
+        AMWQM047:    35 to 64 years: With two or more types of health insurance coverage: Other private only combinations
+        AMWQM048:    35 to 64 years: With two or more types of health insurance coverage: Other public only combinations
+        AMWQM049:    35 to 64 years: With two or more types of health insurance coverage: Other coverage combinations
+        AMWQM050:    35 to 64 years: No health insurance coverage
+        AMWQM051:    65 years and over
+        AMWQM052:    65 years and over: With one type of health insurance coverage
+        AMWQM053:    65 years and over: With one type of health insurance coverage: With employer-based health insurance only
+        AMWQM054:    65 years and over: With one type of health insurance coverage: With direct-purchase health insurance only
+        AMWQM055:    65 years and over: With one type of health insurance coverage: With Medicare coverage only
+        AMWQM056:    65 years and over: With one type of health insurance coverage: With TRICARE/military health coverage only
+        AMWQM057:    65 years and over: With one type of health insurance coverage: With VA Health Care only
+        AMWQM058:    65 years and over: With two or more types of health insurance coverage
+        AMWQM059:    65 years and over: With two or more types of health insurance coverage: With employer-based and direct-purchase coverage
+        AMWQM060:    65 years and over: With two or more types of health insurance coverage: With employer-based and Medicare coverage
+        AMWQM061:    65 years and over: With two or more types of health insurance coverage: With direct-purchase and Medicare coverage
+        AMWQM062:    65 years and over: With two or more types of health insurance coverage: With Medicare and Medicaid/means-tested public coverage
+        AMWQM063:    65 years and over: With two or more types of health insurance coverage: Other private only combinations
+        AMWQM064:    65 years and over: With two or more types of health insurance coverage: Other public only combinations
+        AMWQM065:    65 years and over: With two or more types of health insurance coverage: Other coverage combinations
+        AMWQM066:    65 years and over: No health insurance coverage
+ 
+    Table 53:    Presence and Types of Internet Subscriptions in Household
+    Universe:    Households
+    Source code: B28002
+    NHGIS code:  AMWS
+        AMWSM001:    Total
+        AMWSM002:    With an Internet subscription
+        AMWSM003:    With an Internet subscription: Dial-up with no other type of Internet subscription
+        AMWSM004:    With an Internet subscription: Broadband of any type
+        AMWSM005:    With an Internet subscription: Cellular data plan
+        AMWSM006:    With an Internet subscription: Cellular data plan: Cellular data plan with no other type of Internet subscription
+        AMWSM007:    With an Internet subscription: Broadband such as cable, fiber optic or DSL
+        AMWSM008:    With an Internet subscription: Broadband such as cable, fiber optic or DSL: Broadband such as cable, fiber optic or DSL with no other type of Internet subscription
+        AMWSM009:    With an Internet subscription: Satellite Internet service
+        AMWSM010:    With an Internet subscription: Satellite Internet service: Satellite Internet service with no other type of Internet subscription
+        AMWSM011:    With an Internet subscription: Other service with no other type of Internet subscription
+        AMWSM012:    Internet access without a subscription
+        AMWSM013:    No Internet access
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 17.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2022. 
+        http://doi.org/10.18128/D050.V17.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
